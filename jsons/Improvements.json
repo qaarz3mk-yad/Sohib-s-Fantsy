@@ -1,0 +1,395 @@
+[
+  {
+    "name": "Farm",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Hill"
+    ],
+    "food": 1,
+    "uniques": [
+      "[+1] [Food] from every [Fresh Water]"
+    ],
+    "techRequired": "Agriculture"
+  },
+  {
+    "name": "Mine",
+    "terrainsCanBeBuiltOn": [
+      "Hill",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow"
+    ],
+    "production": 1,
+    "uniques": [
+      "[+1] [Production] from every [Iron]",
+      "[+1] [Production] from every [Coal]",
+      "[+1] [Production] from every [Gold]",
+      "[+1] [Production] from every [Silver]",
+      "[+1] [Production] from every [Copper]",
+      "[+1] [Production] from every [Mithril]",
+      "[+1] [Production] from every [Adamantine]",
+      "[+1] [Production] from every [Star Metal]"
+    ],
+    "techRequired": "Mining"
+  },
+  {
+    "name": "Trading Post",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Forest",
+      "Jungle",
+      "Hill"
+    ],
+    "gold": 1,
+    "uniques": [
+      "[+1] [Gold] after discovering [Economics]"
+    ],
+    "techRequired": "Trapping"
+  },
+  {
+    "name": "Lumber Mill",
+    "terrainsCanBeBuiltOn": [
+      "Forest"
+    ],
+    "production": 1,
+    "uniques": [
+      "[+1] [Production] after discovering [Scientific Theory]"
+    ],
+    "techRequired": "Construction"
+  },
+  {
+    "name": "Pasture",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Hill"
+    ],
+    "food": 0,
+    "production": 1,
+    "uniques": [
+      "[+1] [Food] from every [Horse]",
+      "[+1] [Food] from every [Cattle]",
+      "[+1] [Food] from every [Sheep]"
+    ],
+    "techRequired": "Animal Husbandry"
+  },
+  {
+    "name": "Camp",
+    "terrainsCanBeBuiltOn": [
+      "Forest",
+      "Jungle",
+      "Tundra",
+      "Plains",
+      "Grassland"
+    ],
+    "gold": 1,
+    "uniques": [
+      "[+1] [Food] from every [Deer]",
+      "[+1] [Production] from every [Furs]",
+      "[+1] [Gold] from every [Ivory]",
+      "[+1] [Gold] from every [Truffles]"
+    ],
+    "techRequired": "Trapping"
+  },
+  {
+    "name": "Plantation",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Forest",
+      "Jungle",
+      "Hill"
+    ],
+    "gold": 1,
+    "uniques": [
+      "[+1] [Gold] from every [Bananas]",
+      "[+1] [Gold] from every [Citrus]",
+      "[+1] [Gold] from every [Cotton]",
+      "[+1] [Gold] from every [Dyes]",
+      "[+1] [Gold] from every [Silk]",
+      "[+1] [Gold] from every [Sugar]",
+      "[+1] [Gold] from every [Spices]",
+      "[+1] [Gold] from every [Wine]",
+      "[+1] [Gold] from every [Incense]"
+    ],
+    "techRequired": "Calendar"
+  },
+  {
+    "name": "Quarry",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "production": 1,
+    "uniques": [
+      "[+1] [Production] from every [Stone]",
+      "[+1] [Production] from every [Marble]"
+    ],
+    "techRequired": "Masonry"
+  },
+  {
+    "name": "Fishing Boats",
+    "terrainsCanBeBuiltOn": [
+      "Coast"
+    ],
+    "food": 1,
+    "uniques": [
+      "[+1] [Food] from every [Fish]",
+      "[+1] [Gold] from every [Crab]",
+      "[+1] [Gold] from every [Pearls]",
+      "[+1] [Production] from every [Whale]"
+    ],
+    "techRequired": "Fishing"
+  },
+  {
+    "name": "Oil Well",
+    "terrainsCanBeBuiltOn": [
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Coast"
+    ],
+    "production": 0,
+    "uniques": [
+      "[+3] [Production] from every [Oil]"
+    ],
+    "techRequired": "Biology"
+  },
+  {
+    "name": "Offshore Platform",
+    "terrainsCanBeBuiltOn": [
+      "Coast"
+    ],
+    "production": 0,
+    "uniques": [
+      "[+2] [Production] from every [Oil]"
+    ],
+    "techRequired": "Plastics"
+  },
+  {
+    "name": "Road",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "movementCost": 1,
+    "uniques": [
+      "+[1] Movement for all units that move through here",
+      "+[10]% Strength for [All] units in [Friendly Land] tiles",
+      "Costs [1] [Gold] per turn when in your territory"
+    ],
+    "techRequired": "The Wheel"
+  },
+  {
+    "name": "Railroad",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "movementCost": 1,
+    "uniques": [
+      "+[2] Movement for all units that move through here",
+      "+[20]% Strength for [All] units in [Friendly Land] tiles",
+      "Costs [2] [Gold] per turn when in your territory"
+    ],
+    "techRequired": "Railroad"
+  },
+  {
+    "name": "Academy",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "science": 8,
+    "uniques": [
+      "Great Improvement",
+      "+[2] [Science] after discovering [Scientific Theory]"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Landmark",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "culture": 8,
+    "uniques": [
+      "Great Improvement",
+      "+[2] [Culture] after discovering [Archaeology]"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Manufactory",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "production": 4,
+    "uniques": [
+      "Great Improvement",
+      "+[2] [Production] after discovering [Chemistry]"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Customs House",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "gold": 8,
+    "uniques": [
+      "Great Improvement",
+      "+[2] [Gold] after discovering [Economics]"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Holy Site",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "faith": 6,
+    "uniques": [
+      "Great Improvement",
+      "+[2] [Faith] after discovering [Theology]",
+      "[+2] [Gold] after discovering [Flight]"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Citadel",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Great Improvement",
+      "Gives a defensive bonus of [+100]%",
+      "[+15]% Strength for [All] units within [2] tiles",
+      "Deal [30] damage to adjacent enemy units"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Soul Node",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Great Improvement",
+      "Provides [4] [Soul Power]",
+      "[+2] [Soul Power] after discovering [Transmutation]",
+      "[+3] [Soul Power] after discovering [Void Magic]"
+    ],
+    "techRequired": null
+  },
+  {
+    "name": "Mana Crystal Mine",
+    "terrainsCanBeBuiltOn": [
+      "Hill",
+      "Mountain",
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow"
+    ],
+    "production": 1,
+    "uniques": [
+      "[+1] [Production] from every [Mana Crystal]",
+      "[+1] [Soul Power] from every [Mana Crystal]"
+    ],
+    "techRequired": "Mining"
+  },
+  {
+    "name": "Ley Line Channel",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "uniques": [
+      "Provides [2] [Soul Power]",
+      "[+1] [Soul Power] after discovering [Transmutation]",
+      "[+1] [Soul Power] after discovering [Void Magic]",
+      "Costs [1] [Gold] per turn when in your territory"
+    ],
+    "techRequired": "Arcane Fundamentals"
+  },
+  {
+    "name": "Necrotic Farm",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow"
+    ],
+    "food": 1,
+    "uniques": [
+      "Provides [1] [Soul Power]",
+      "[+1] [Food] after discovering [Fertilizer]"
+    ],
+    "techRequired": "Necromancy"
+  },
+  {
+    "name": "Arcane Plantation",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Forest",
+      "Jungle",
+      "Hill"
+    ],
+    "gold": 1,
+    "uniques": [
+      "[+1] [Gold] from every [Moonpetal]",
+      "[+1] [Gold] from every [Phoenix Feather]",
+      "[+1] [Gold] from every [Unicorn Horn]",
+      "[+1] [Gold] from every [Ember Gem]",
+      "[+1] [Gold] from every [Frost Lotus]",
+      "[+1] [Soul Power] from every [Moonpetal]",
+      "[+1] [Soul Power] from every [Phoenix Feather]"
+    ],
+    "techRequired": "Arcane Fundamentals"
+  },
+  {
+    "name": "Fort",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "uniques": [
+      "Gives a defensive bonus of [+50]%",
+      "[+2] Sight for [All] units in this tile",
+      "Can be built just outside your borders",
+      "Costs [1] [Gold] per turn when in your territory"
+    ],
+    "techRequired": "Engineering"
+  }
+]
