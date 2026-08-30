@@ -1,1 +1,770 @@
-
+[
+  {
+    "name": "Primitive Tools",
+    "cost": 20,
+    "prerequisites": [],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "The first spark of civilization."
+  },
+  {
+    "name": "Hunting",
+    "cost": 25,
+    "prerequisites": [
+      "Primitive Tools"
+    ],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "To hunt is to survive."
+  },
+  {
+    "name": "Agriculture",
+    "cost": 25,
+    "prerequisites": [
+      "Primitive Tools"
+    ],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "The land provides for those who tend it."
+  },
+  {
+    "name": "Animal Husbandry",
+    "cost": 30,
+    "prerequisites": [
+      "Hunting"
+    ],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "The beast becomes companion, not prey."
+  },
+  {
+    "name": "Pottery",
+    "cost": 30,
+    "prerequisites": [
+      "Agriculture"
+    ],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "From clay, we shape our future."
+  },
+  {
+    "name": "Weaving",
+    "cost": 35,
+    "prerequisites": [
+      "Agriculture"
+    ],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "Thread by thread, warmth is born."
+  },
+  {
+    "name": "Mysticism",
+    "cost": 35,
+    "prerequisites": [
+      "Pottery"
+    ],
+    "era": "Age of Dawn",
+    "uniques": [],
+    "quote": "In the flames, the first shamans saw visions."
+  },
+  {
+    "name": "Bronze Working",
+    "cost": 60,
+    "prerequisites": [
+      "Primitive Tools",
+      "Pottery"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "Copper and tin merge into something greater."
+  },
+  {
+    "name": "Archery",
+    "cost": 50,
+    "prerequisites": [
+      "Hunting"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "The bow extends the arm's reach to the horizon."
+  },
+  {
+    "name": "Sailing",
+    "cost": 55,
+    "prerequisites": [
+      "Animal Husbandry"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "The sea is not a barrier, but a road."
+  },
+  {
+    "name": "Masonry",
+    "cost": 65,
+    "prerequisites": [
+      "Bronze Working"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "Stone upon stone, we build permanence."
+  },
+  {
+    "name": "Writing",
+    "cost": 70,
+    "prerequisites": [
+      "Mysticism"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "Words frozen in time, wisdom preserved."
+  },
+  {
+    "name": "Divination",
+    "cost": 60,
+    "prerequisites": [
+      "Mysticism"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "The stars whisper secrets to those who listen."
+  },
+  {
+    "name": "Herbalism",
+    "cost": 55,
+    "prerequisites": [
+      "Weaving"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "Nature's pharmacy lies in leaf and root."
+  },
+  {
+    "name": "Trapping",
+    "cost": 50,
+    "prerequisites": [
+      "Archery"
+    ],
+    "era": "Age of Tribes",
+    "uniques": [],
+    "quote": "The patient hunter needs not chase."
+  },
+  {
+    "name": "Arcane Fundamentals",
+    "cost": 120,
+    "prerequisites": [
+      "Writing",
+      "Divination"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "Magic is merely science that has not yet been catalogued."
+  },
+  {
+    "name": "Iron Working",
+    "cost": 110,
+    "prerequisites": [
+      "Bronze Working",
+      "Masonry"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "Iron bends to the will of fire and hammer."
+  },
+  {
+    "name": "Mathematics",
+    "cost": 115,
+    "prerequisites": [
+      "Writing"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "In numbers, the universe reveals its patterns."
+  },
+  {
+    "name": "Currency",
+    "cost": 100,
+    "prerequisites": [
+      "Bronze Working"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "Gold speaks all languages."
+  },
+  {
+    "name": "Construction",
+    "cost": 110,
+    "prerequisites": [
+      "Masonry"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "We do not merely build walls; we build dreams."
+  },
+  {
+    "name": "Soul Binding",
+    "cost": 130,
+    "prerequisites": [
+      "Arcane Fundamentals"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "To bind a soul is to hold the essence of life itself."
+  },
+  {
+    "name": "Optics",
+    "cost": 105,
+    "prerequisites": [
+      "Mathematics"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "The eye can be sharpened, and with it, the mind."
+  },
+  {
+    "name": "Horse Riding",
+    "cost": 100,
+    "prerequisites": [
+      "Animal Husbandry",
+      "Trapping"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "Four legs carry us faster than two."
+  },
+  {
+    "name": "Drama and Poetry",
+    "cost": 95,
+    "prerequisites": [
+      "Writing",
+      "Weaving"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "The heart speaks in verse when prose fails."
+  },
+  {
+    "name": "Astronomy",
+    "cost": 125,
+    "prerequisites": [
+      "Mathematics",
+      "Divination"
+    ],
+    "era": "Age of Arcana",
+    "uniques": [],
+    "quote": "The heavens are a map for those who can read them."
+  },
+  {
+    "name": "Engineering",
+    "cost": 200,
+    "prerequisites": [
+      "Construction",
+      "Mathematics"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "With leverage, a single man can move mountains."
+  },
+  {
+    "name": "Steel Working",
+    "cost": 220,
+    "prerequisites": [
+      "Iron Working"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "Steel is the backbone of empires."
+  },
+  {
+    "name": "Philosophy",
+    "cost": 190,
+    "prerequisites": [
+      "Drama and Poetry",
+      "Soul Binding"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "To know oneself is the beginning of all wisdom."
+  },
+  {
+    "name": "Theology",
+    "cost": 210,
+    "prerequisites": [
+      "Philosophy",
+      "Astronomy"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "The gods speak, and we must interpret."
+  },
+  {
+    "name": "Civil Service",
+    "cost": 200,
+    "prerequisites": [
+      "Philosophy",
+      "Currency"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "Order is the foundation of civilization."
+  },
+  {
+    "name": "Guilds",
+    "cost": 195,
+    "prerequisites": [
+      "Currency",
+      "Construction"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "Masters pass their secrets to worthy apprentices."
+  },
+  {
+    "name": "Machinery",
+    "cost": 215,
+    "prerequisites": [
+      "Engineering"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "Gears turn, and with them, the world."
+  },
+  {
+    "name": "Chivalry",
+    "cost": 205,
+    "prerequisites": [
+      "Horse Riding",
+      "Civil Service"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "Honor is the shield of the righteous."
+  },
+  {
+    "name": "Elementalism",
+    "cost": 230,
+    "prerequisites": [
+      "Soul Binding",
+      "Astronomy"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "Fire, water, earth, and air answer to the worthy."
+  },
+  {
+    "name": "Cartography",
+    "cost": 185,
+    "prerequisites": [
+      "Optics",
+      "Sailing"
+    ],
+    "era": "Age of Empires",
+    "uniques": [],
+    "quote": "To chart the world is to claim it."
+  },
+  {
+    "name": "Physics",
+    "cost": 350,
+    "prerequisites": [
+      "Engineering",
+      "Optics"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "For every action, there is a reaction."
+  },
+  {
+    "name": "Metallurgy",
+    "cost": 360,
+    "prerequisites": [
+      "Steel Working",
+      "Machinery"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "The forge is the womb of war."
+  },
+  {
+    "name": "Necromancy",
+    "cost": 380,
+    "prerequisites": [
+      "Elementalism",
+      "Soul Binding"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "Death is not the end, but a door."
+  },
+  {
+    "name": "Banking",
+    "cost": 340,
+    "prerequisites": [
+      "Guilds",
+      "Civil Service"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "Gold begets gold, in the right hands."
+  },
+  {
+    "name": "Gunpowder",
+    "cost": 370,
+    "prerequisites": [
+      "Physics",
+      "Metallurgy"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "A small spark, a great thunder."
+  },
+  {
+    "name": "Printing Press",
+    "cost": 330,
+    "prerequisites": [
+      "Machinery",
+      "Theology"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "Knowledge, once scarce, now flows like water."
+  },
+  {
+    "name": "Navigation",
+    "cost": 345,
+    "prerequisites": [
+      "Cartography",
+      "Physics"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "The compass points to destiny."
+  },
+  {
+    "name": "Summoning",
+    "cost": 390,
+    "prerequisites": [
+      "Elementalism",
+      "Necromancy"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "To call forth is to command."
+  },
+  {
+    "name": "Military Tradition",
+    "cost": 355,
+    "prerequisites": [
+      "Chivalry",
+      "Gunpowder"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "Victory belongs to the most prepared."
+  },
+  {
+    "name": "Diplomacy",
+    "cost": 320,
+    "prerequisites": [
+      "Banking",
+      "Printing Press"
+    ],
+    "era": "Age of War",
+    "uniques": [],
+    "quote": "Words can achieve what swords cannot."
+  },
+  {
+    "name": "Alchemy",
+    "cost": 550,
+    "prerequisites": [
+      "Gunpowder",
+      "Necromancy"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Lead into gold, mortal into divine."
+  },
+  {
+    "name": "Astronomy II",
+    "cost": 530,
+    "prerequisites": [
+      "Navigation",
+      "Summoning"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "The stars are not merely lights, but doorways."
+  },
+  {
+    "name": "Rifling",
+    "cost": 560,
+    "prerequisites": [
+      "Gunpowder",
+      "Metallurgy"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "The spiral groove gives death a spin."
+  },
+  {
+    "name": "Steam Power",
+    "cost": 540,
+    "prerequisites": [
+      "Physics",
+      "Machinery"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Steam is the breath of industry."
+  },
+  {
+    "name": "Transmutation",
+    "cost": 580,
+    "prerequisites": [
+      "Alchemy",
+      "Summoning"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Reality is clay in the hands of the master."
+  },
+  {
+    "name": "Electricity",
+    "cost": 570,
+    "prerequisites": [
+      "Steam Power",
+      "Alchemy"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Lightning, once feared, now serves."
+  },
+  {
+    "name": "Telepathy",
+    "cost": 590,
+    "prerequisites": [
+      "Transmutation",
+      "Astronomy II"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Thought travels faster than any steed."
+  },
+  {
+    "name": "Railroad",
+    "cost": 550,
+    "prerequisites": [
+      "Steam Power"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Iron roads bind the empire together."
+  },
+  {
+    "name": "Conjuration",
+    "cost": 600,
+    "prerequisites": [
+      "Transmutation",
+      "Telepathy"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "To create from nothing is the highest art."
+  },
+  {
+    "name": "Biology",
+    "cost": 560,
+    "prerequisites": [
+      "Alchemy",
+      "Printing Press"
+    ],
+    "era": "Age of Legends",
+    "uniques": [],
+    "quote": "Life itself becomes a subject of study."
+  },
+  {
+    "name": "Combustion",
+    "cost": 800,
+    "prerequisites": [
+      "Steam Power",
+      "Rifling"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "Explosive force, tamed and directed."
+  },
+  {
+    "name": "Flight",
+    "cost": 820,
+    "prerequisites": [
+      "Electricity",
+      "Physics"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "Humanity reaches for the sky."
+  },
+  {
+    "name": "Planar Theory",
+    "cost": 850,
+    "prerequisites": [
+      "Conjuration",
+      "Astronomy II"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "Other worlds exist beyond the veil."
+  },
+  {
+    "name": "Radio",
+    "cost": 780,
+    "prerequisites": [
+      "Electricity",
+      "Telepathy"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "Voices travel where feet cannot."
+  },
+  {
+    "name": "Plastics",
+    "cost": 810,
+    "prerequisites": [
+      "Combustion",
+      "Biology"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "A new material for a new age."
+  },
+  {
+    "name": "Atomic Theory",
+    "cost": 860,
+    "prerequisites": [
+      "Planar Theory",
+      "Physics"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "The atom contains infinite power."
+  },
+  {
+    "name": "Rocketry",
+    "cost": 840,
+    "prerequisites": [
+      "Flight",
+      "Combustion"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "The sky is not the limit."
+  },
+  {
+    "name": "Void Magic",
+    "cost": 880,
+    "prerequisites": [
+      "Planar Theory",
+      "Necromancy"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "The void between stars holds terrible power."
+  },
+  {
+    "name": "Computers",
+    "cost": 830,
+    "prerequisites": [
+      "Radio",
+      "Plastics"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "The machine thinks, and thus changes everything."
+  },
+  {
+    "name": "Genetics",
+    "cost": 870,
+    "prerequisites": [
+      "Biology",
+      "Atomic Theory"
+    ],
+    "era": "Age of Ascension",
+    "uniques": [],
+    "quote": "The code of life is written and rewritten."
+  },
+  {
+    "name": "Nanotechnology",
+    "cost": 1200,
+    "prerequisites": [
+      "Computers",
+      "Plastics"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "Machines smaller than grains of sand reshape the world."
+  },
+  {
+    "name": "Fusion Power",
+    "cost": 1150,
+    "prerequisites": [
+      "Atomic Theory",
+      "Rocketry"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "The power of the sun, bottled."
+  },
+  {
+    "name": "Divine Ascension",
+    "cost": 1300,
+    "prerequisites": [
+      "Void Magic",
+      "Genetics"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "Mortals become gods, and gods become obsolete."
+  },
+  {
+    "name": "Space Travel",
+    "cost": 1250,
+    "prerequisites": [
+      "Rocketry",
+      "Fusion Power"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "The final frontier is conquered."
+  },
+  {
+    "name": "Time Magic",
+    "cost": 1350,
+    "prerequisites": [
+      "Divine Ascension",
+      "Void Magic"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "Time is but another dimension to be traversed."
+  },
+  {
+    "name": "Singularity",
+    "cost": 1400,
+    "prerequisites": [
+      "Nanotechnology",
+      "Divine Ascension"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "The merging of flesh and machine, magic and science."
+  },
+  {
+    "name": "Reality Shaping",
+    "cost": 1500,
+    "prerequisites": [
+      "Time Magic",
+      "Singularity"
+    ],
+    "era": "Age of Divinity",
+    "uniques": [],
+    "quote": "Reality itself becomes a canvas."
+  }
+    ]
