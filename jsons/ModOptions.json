@@ -1,1 +1,19 @@
-{"isBaseRuleset":true}
+{
+  "isBaseRuleset": true,
+  "uniques": [],
+  "constants": {
+    "maxXPfromBarbarians": 50,
+    "cityStrengthBase": 10.0,
+    "cityStrengthPerPop": 0.5,
+    "cityStrengthFromTechsMultiplier": 6.0,
+    "cityStrengthFromTechsExponent": 2.8,
+    "cityStrengthFromTechsFullMultiplier": 1.0,
+    "cityStrengthFromGarrison": 0.25,
+    "baseCityBombardRange": 2,
+    "cityWorkRange": 3,
+    "cityExpandRange": 5,
+    "unitSupplyPerPopulation": 0.5,
+    "minimalCityDistance": 3,
+    "minimalCityDistanceOnDifferentContinents": 2
+  }
+}
