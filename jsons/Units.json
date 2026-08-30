@@ -1,18 +1,1462 @@
 [
-    {
-        "name": "Settler",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
-    },
-    {
-		"name": "Rifleman",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 5,
-        "range": 2,
-		"rangedStrength": 7,
-		"cost": 40,
-		"attackSound": "shot"
-	}
-]
+  {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "era": "Age of Dawn",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 80,
+    "requiredTech": null,
+    "uniques": [
+      "Founds a new city",
+      "Excess Food converted into Production when under construction"
+    ]
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "era": "Age of Dawn",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 50,
+    "requiredTech": null,
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Can remove [Forest] from tiles",
+      "Can remove [Jungle] from tiles",
+      "Can remove [Marsh] from tiles"
+    ]
+  },
+  {
+    "name": "Scout",
+    "unitType": "Civilian",
+    "era": "Age of Dawn",
+    "strength": 5,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 25,
+    "requiredTech": null,
+    "uniques": [
+      "Ignores terrain cost",
+      "+[1] Sight"
+    ]
+  },
+  {
+    "name": "Archmage",
+    "unitType": "Civilian",
+    "era": "Age of Arcana",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "Can instantly construct a [Academy] improvement",
+      "+[4] Science",
+      "Great Person - Science",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Battlemaster",
+    "unitType": "Civilian",
+    "era": "Age of Tribes",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "+[15]% Strength bonus for [All] units within [2] tiles",
+      "Can instantly construct a [Citadel] improvement",
+      "Great Person - War",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "High Priest",
+    "unitType": "Civilian",
+    "era": "Age of Arcana",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "Can instantly construct a [Holy Site] improvement",
+      "+[4] Faith",
+      "Great Person - Faith",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Artificer",
+    "unitType": "Civilian",
+    "era": "Age of Empires",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "Can instantly construct a [Manufactory] improvement",
+      "+[4] Production",
+      "Great Person - Production",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Merchant Prince",
+    "unitType": "Civilian",
+    "era": "Age of Empires",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "Can instantly construct a [Customs House] improvement",
+      "+[4] Gold",
+      "Great Person - Gold",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Bard",
+    "unitType": "Civilian",
+    "era": "Age of Arcana",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "Can instantly construct a [Landmark] improvement",
+      "+[4] Culture",
+      "Great Person - Culture",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Soulweaver",
+    "unitType": "Civilian",
+    "era": "Age of War",
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 0,
+    "requiredTech": null,
+    "uniques": [
+      "Can instantly construct a [Soul Node] improvement",
+      "+[4] [Soul Power]",
+      "Great Person - Soul Power",
+      "Can be purchased with [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Militia",
+    "unitType": "Melee",
+    "era": "Age of Dawn",
+    "strength": 5,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 30,
+    "requiredTech": null,
+    "uniques": []
+  },
+  {
+    "name": "Slinger",
+    "unitType": "Ranged",
+    "era": "Age of Dawn",
+    "strength": 3,
+    "rangedStrength": 5,
+    "range": 1,
+    "movement": 2,
+    "cost": 25,
+    "requiredTech": null,
+    "uniques": []
+  },
+  {
+    "name": "Hunter",
+    "unitType": "Ranged",
+    "era": "Age of Dawn",
+    "strength": 4,
+    "rangedStrength": 6,
+    "range": 1,
+    "movement": 2,
+    "cost": 35,
+    "requiredTech": "Hunting",
+    "uniques": []
+  },
+  {
+    "name": "Warrior",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 7,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 40,
+    "requiredTech": null,
+    "uniques": []
+  },
+  {
+    "name": "Spearman",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 8,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 45,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "+[50]% Strength vs [Mounted] units"
+    ]
+  },
+  {
+    "name": "Archer",
+    "unitType": "Ranged",
+    "era": "Age of Tribes",
+    "strength": 4,
+    "rangedStrength": 7,
+    "range": 2,
+    "movement": 2,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "uniques": []
+  },
+  {
+    "name": "Chariot",
+    "unitType": "Mounted",
+    "era": "Age of Tribes",
+    "strength": 8,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 50,
+    "requiredTech": "Animal Husbandry",
+    "uniques": [
+      "+[50]% Strength vs [Siege] units"
+    ]
+  },
+  {
+    "name": "Trireme",
+    "unitType": "Naval Melee",
+    "era": "Age of Tribes",
+    "strength": 8,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 45,
+    "requiredTech": "Sailing",
+    "uniques": [
+      "Cannot enter [Ocean] tiles"
+    ]
+  },
+  {
+    "name": "Swordsman",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 12,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 60,
+    "requiredTech": "Iron Working",
+    "uniques": [],
+    "requiredResource": "Iron"
+  },
+  {
+    "name": "Longbowman",
+    "unitType": "Ranged",
+    "era": "Age of Arcana",
+    "strength": 6,
+    "rangedStrength": 10,
+    "range": 2,
+    "movement": 2,
+    "cost": 70,
+    "requiredTech": "Archery",
+    "uniques": []
+  },
+  {
+    "name": "Pikeman",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 10,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 60,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "+[50]% Strength vs [Mounted] units"
+    ]
+  },
+  {
+    "name": "Catapult",
+    "unitType": "Siege",
+    "era": "Age of Arcana",
+    "strength": 6,
+    "rangedStrength": 8,
+    "range": 2,
+    "movement": 2,
+    "cost": 70,
+    "requiredTech": "Mathematics",
+    "uniques": [
+      "+[200]% Strength vs [City] units",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack",
+      "[-50]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Galley",
+    "unitType": "Naval Melee",
+    "era": "Age of Arcana",
+    "strength": 10,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 60,
+    "requiredTech": "Sailing",
+    "uniques": [
+      "Cannot enter [Ocean] tiles"
+    ]
+  },
+  {
+    "name": "Arcane Apprentice",
+    "unitType": "Ranged",
+    "era": "Age of Arcana",
+    "strength": 5,
+    "rangedStrength": 12,
+    "range": 2,
+    "movement": 2,
+    "cost": 80,
+    "requiredTech": "Arcane Fundamentals",
+    "uniques": [
+      "+[20]% Strength vs [All] units <when fighting in [Ley Line] tiles>",
+      "Provides [1] [Soul Power]"
+    ]
+  },
+  {
+    "name": "Knight",
+    "unitType": "Mounted",
+    "era": "Age of Empires",
+    "strength": 18,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 100,
+    "requiredTech": "Chivalry",
+    "uniques": [],
+    "requiredResource": "Horse"
+  },
+  {
+    "name": "Crossbowman",
+    "unitType": "Ranged",
+    "era": "Age of Empires",
+    "strength": 8,
+    "rangedStrength": 14,
+    "range": 2,
+    "movement": 2,
+    "cost": 90,
+    "requiredTech": "Machinery",
+    "uniques": []
+  },
+  {
+    "name": "Halberdier",
+    "unitType": "Melee",
+    "era": "Age of Empires",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 80,
+    "requiredTech": "Steel Working",
+    "uniques": [
+      "+[50]% Strength vs [Mounted] units"
+    ],
+    "requiredResource": "Iron"
+  },
+  {
+    "name": "Trebuchet",
+    "unitType": "Siege",
+    "era": "Age of Empires",
+    "strength": 8,
+    "rangedStrength": 12,
+    "range": 2,
+    "movement": 2,
+    "cost": 100,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "+[200]% Strength vs [City] units",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack",
+      "[-50]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Galleon",
+    "unitType": "Naval Melee",
+    "era": "Age of Empires",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 110,
+    "requiredTech": "Navigation",
+    "uniques": []
+  },
+  {
+    "name": "Elementalist",
+    "unitType": "Ranged",
+    "era": "Age of Empires",
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "movement": 2,
+    "cost": 120,
+    "requiredTech": "Elementalism",
+    "uniques": [
+      "+[30]% Strength vs [All] units <when fighting in [Desert] tiles>",
+      "+[30]% Strength vs [All] units <when fighting in [Forest] tiles>",
+      "Provides [2] [Soul Power]"
+    ]
+  },
+  {
+    "name": "Musketeer",
+    "unitType": "Ranged",
+    "era": "Age of War",
+    "strength": 12,
+    "rangedStrength": 18,
+    "range": 2,
+    "movement": 2,
+    "cost": 150,
+    "requiredTech": "Gunpowder",
+    "uniques": [
+      "+[25]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Cannon",
+    "unitType": "Siege",
+    "era": "Age of War",
+    "strength": 10,
+    "rangedStrength": 16,
+    "range": 2,
+    "movement": 2,
+    "cost": 160,
+    "requiredTech": "Physics",
+    "uniques": [
+      "+[200]% Strength vs [City] units",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack",
+      "[-50]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Cavalry",
+    "unitType": "Mounted",
+    "era": "Age of War",
+    "strength": 22,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 180,
+    "requiredTech": "Military Tradition",
+    "uniques": [],
+    "requiredResource": "Horse"
+  },
+  {
+    "name": "Frigate",
+    "unitType": "Naval Ranged",
+    "era": "Age of War",
+    "strength": 16,
+    "rangedStrength": 20,
+    "range": 2,
+    "movement": 5,
+    "cost": 200,
+    "requiredTech": "Navigation",
+    "uniques": []
+  },
+  {
+    "name": "Necromancer",
+    "unitType": "Ranged",
+    "era": "Age of War",
+    "strength": 10,
+    "rangedStrength": 20,
+    "range": 2,
+    "movement": 2,
+    "cost": 180,
+    "requiredTech": "Necromancy",
+    "uniques": [
+      "May capture killed [All] units",
+      "Provides [3] [Soul Power]",
+      "+[10]% Strength for [All] units within [2] tiles"
+    ]
+  },
+  {
+    "name": "Summoner",
+    "unitType": "Ranged",
+    "era": "Age of War",
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 2,
+    "movement": 2,
+    "cost": 170,
+    "requiredTech": "Summoning",
+    "uniques": [
+      "+[2] additional attacks per turn",
+      "Provides [2] [Soul Power]",
+      "+[15]% Strength for [All] units within [2] tiles"
+    ]
+  },
+  {
+    "name": "Rifleman",
+    "unitType": "Ranged",
+    "era": "Age of Legends",
+    "strength": 16,
+    "rangedStrength": 22,
+    "range": 2,
+    "movement": 2,
+    "cost": 200,
+    "requiredTech": "Rifling",
+    "uniques": [
+      "+[25]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Artillery",
+    "unitType": "Siege",
+    "era": "Age of Legends",
+    "strength": 12,
+    "rangedStrength": 24,
+    "range": 3,
+    "movement": 2,
+    "cost": 220,
+    "requiredTech": "Steam Power",
+    "uniques": [
+      "+[200]% Strength vs [City] units",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack",
+      "[-50]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Magitech Cavalry",
+    "unitType": "Mounted",
+    "era": "Age of Legends",
+    "strength": 28,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 250,
+    "requiredTech": "Steam Power",
+    "uniques": [
+      "+[20]% Strength when attacking",
+      "Ignores terrain cost"
+    ]
+  },
+  {
+    "name": "Ironclad",
+    "unitType": "Naval Melee",
+    "era": "Age of Legends",
+    "strength": 30,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 280,
+    "requiredTech": "Steam Power",
+    "uniques": [],
+    "requiredResource": "Coal"
+  },
+  {
+    "name": "Voidwalker",
+    "unitType": "Flying",
+    "era": "Age of Legends",
+    "strength": 20,
+    "rangedStrength": 24,
+    "range": 2,
+    "movement": 4,
+    "cost": 300,
+    "requiredTech": "Void Magic",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[30]% Strength vs [All] units",
+      "Provides [3] [Soul Power]"
+    ]
+  },
+  {
+    "name": "Titan",
+    "unitType": "Melee",
+    "era": "Age of Legends",
+    "strength": 35,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 350,
+    "requiredTech": "Transmutation",
+    "uniques": [
+      "+[50]% Strength vs [City] units",
+      "-[1] Movement",
+      "Can only attack [City] units"
+    ]
+  },
+  {
+    "name": "Great War Infantry",
+    "unitType": "Ranged",
+    "era": "Age of Ascension",
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "movement": 2,
+    "cost": 300,
+    "requiredTech": "Combustion",
+    "uniques": [
+      "+[25]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Mana Golem",
+    "unitType": "Melee",
+    "era": "Age of Ascension",
+    "strength": 40,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 400,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "+[30]% Strength",
+      "-[1] Movement",
+      "Provides [5] [Soul Power]",
+      "Can only attack [City] units"
+    ]
+  },
+  {
+    "name": "Phoenix Rider",
+    "unitType": "Flying",
+    "era": "Age of Ascension",
+    "strength": 24,
+    "rangedStrength": 28,
+    "range": 2,
+    "movement": 6,
+    "cost": 380,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[20]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Aetheric Dreadnought",
+    "unitType": "Naval Ranged",
+    "era": "Age of Ascension",
+    "strength": 30,
+    "rangedStrength": 35,
+    "range": 3,
+    "movement": 5,
+    "cost": 450,
+    "requiredTech": "Rocketry",
+    "uniques": []
+  },
+  {
+    "name": "Doomsayer",
+    "unitType": "Ranged",
+    "era": "Age of Ascension",
+    "strength": 18,
+    "rangedStrength": 32,
+    "range": 3,
+    "movement": 2,
+    "cost": 420,
+    "requiredTech": "Void Magic",
+    "uniques": [
+      "+[40]% Strength vs [City] units",
+      "Provides [5] [Soul Power]",
+      "+[20]% Strength for [All] units within [3] tiles"
+    ]
+  },
+  {
+    "name": "Power Armor",
+    "unitType": "Melee",
+    "era": "Age of Divinity",
+    "strength": 50,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 500,
+    "requiredTech": "Nanotechnology",
+    "uniques": [
+      "+[30]% Strength",
+      "+[1] additional attacks per turn"
+    ]
+  },
+  {
+    "name": "Titan Walker",
+    "unitType": "Melee",
+    "era": "Age of Divinity",
+    "strength": 60,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 600,
+    "requiredTech": "Fusion Power",
+    "uniques": [
+      "+[50]% Strength vs [City] units",
+      "Can only attack [City] units",
+      "-[1] Movement",
+      "Provides [8] [Soul Power]"
+    ]
+  },
+  {
+    "name": "Star Drake",
+    "unitType": "Flying",
+    "era": "Age of Divinity",
+    "strength": 35,
+    "rangedStrength": 40,
+    "range": 3,
+    "movement": 8,
+    "cost": 550,
+    "requiredTech": "Space Travel",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[30]% Strength when attacking",
+      "+[2] additional attacks per turn"
+    ]
+  },
+  {
+    "name": "Worldbreaker",
+    "unitType": "Naval Ranged",
+    "era": "Age of Divinity",
+    "strength": 40,
+    "rangedStrength": 50,
+    "range": 4,
+    "movement": 6,
+    "cost": 650,
+    "requiredTech": "Space Travel",
+    "uniques": [
+      "+[300]% Strength vs [City] units"
+    ]
+  },
+  {
+    "name": "Reality Shaper",
+    "unitType": "Ranged",
+    "era": "Age of Divinity",
+    "strength": 25,
+    "rangedStrength": 45,
+    "range": 4,
+    "movement": 3,
+    "cost": 700,
+    "requiredTech": "Reality Shaping",
+    "uniques": [
+      "+[50]% Strength vs [All] units",
+      "Provides [10] [Soul Power]",
+      "+[30]% Strength for [All] units within [4] tiles",
+      "+[2] additional attacks per turn"
+    ]
+  },
+  {
+    "name": "Blade Dancer",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 70,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[25]% Strength when attacking",
+      "+[1] Movement"
+    ],
+    "uniqueTo": "High Elves",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Moon Archer",
+    "unitType": "Ranged",
+    "era": "Age of Arcana",
+    "strength": 6,
+    "rangedStrength": 12,
+    "range": 3,
+    "movement": 2,
+    "cost": 80,
+    "requiredTech": "Archery",
+    "uniques": [
+      "+[1] Range",
+      "+[10]% Strength"
+    ],
+    "uniqueTo": "High Elves",
+    "replaces": "Longbowman"
+  },
+  {
+    "name": "Unicorn Rider",
+    "unitType": "Mounted",
+    "era": "Age of Empires",
+    "strength": 20,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 110,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "+[1] Movement",
+      "+[15]% Strength",
+      "All adjacent units heal [5] HP per turn when healing"
+    ],
+    "uniqueTo": "High Elves",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Phoenix Guard",
+    "unitType": "Ranged",
+    "era": "Age of Legends",
+    "strength": 18,
+    "rangedStrength": 26,
+    "range": 2,
+    "movement": 2,
+    "cost": 220,
+    "requiredTech": "Rifling",
+    "uniques": [
+      "+[30]% Strength when defending",
+      "All adjacent units heal [10] HP per turn when healing"
+    ],
+    "uniqueTo": "High Elves",
+    "replaces": "Rifleman"
+  },
+  {
+    "name": "Shadowblade",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 13,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 70,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[50]% Strength when attacking",
+      "-[25]% Strength when defending"
+    ],
+    "uniqueTo": "Dark Elves",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Hand Crossbowman",
+    "unitType": "Ranged",
+    "era": "Age of Empires",
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "movement": 2,
+    "cost": 95,
+    "requiredTech": "Machinery",
+    "uniques": [
+      "+[20]% Strength when attacking",
+      "+[1] Movement"
+    ],
+    "uniqueTo": "Dark Elves",
+    "replaces": "Crossbowman"
+  },
+  {
+    "name": "Spider Rider",
+    "unitType": "Mounted",
+    "era": "Age of Empires",
+    "strength": 16,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 100,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "+[1] Movement",
+      "Can move after attacking",
+      "+[10]% Strength"
+    ],
+    "uniqueTo": "Dark Elves",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Drider",
+    "unitType": "Ranged",
+    "era": "Age of War",
+    "strength": 14,
+    "rangedStrength": 22,
+    "range": 2,
+    "movement": 3,
+    "cost": 190,
+    "requiredTech": "Gunpowder",
+    "uniques": [
+      "+[1] Movement",
+      "+[20]% Strength",
+      "Can move after attacking"
+    ],
+    "uniqueTo": "Dark Elves",
+    "replaces": "Musketeer"
+  },
+  {
+    "name": "Ironbreaker",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 1,
+    "cost": 70,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[30]% Strength when defending",
+      "-[1] Movement"
+    ],
+    "requiredResource": "Iron",
+    "uniqueTo": "Dwarves",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Thunderer",
+    "unitType": "Ranged",
+    "era": "Age of Empires",
+    "strength": 10,
+    "rangedStrength": 16,
+    "range": 2,
+    "movement": 2,
+    "cost": 100,
+    "requiredTech": "Machinery",
+    "uniques": [
+      "+[25]% Strength vs [City] units",
+      "+[1] Sight"
+    ],
+    "uniqueTo": "Dwarves",
+    "replaces": "Crossbowman"
+  },
+  {
+    "name": "Gyrocopter",
+    "unitType": "Flying",
+    "era": "Age of Legends",
+    "strength": 18,
+    "rangedStrength": 20,
+    "range": 2,
+    "movement": 5,
+    "cost": 280,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[1] Sight",
+      "+[15]% Strength"
+    ],
+    "uniqueTo": "Dwarves",
+    "replaces": "Voidwalker"
+  },
+  {
+    "name": "Steam Tank",
+    "unitType": "Melee",
+    "era": "Age of Ascension",
+    "strength": 45,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 380,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "+[40]% Strength",
+      "-[1] Movement",
+      "Provides [3] [Soul Power]"
+    ],
+    "uniqueTo": "Dwarves",
+    "replaces": "Mana Golem"
+  },
+  {
+    "name": "Grunt",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 9,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 35,
+    "requiredTech": null,
+    "uniques": [
+      "+[15]% Strength when attacking",
+      "-[10]% Strength when defending"
+    ],
+    "uniqueTo": "Orcs",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Berserker",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 65,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[40]% Strength when attacking",
+      "-[30]% Strength when defending",
+      "+[1] additional attacks per turn"
+    ],
+    "uniqueTo": "Orcs",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Wolf Rider",
+    "unitType": "Mounted",
+    "era": "Age of Arcana",
+    "strength": 10,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 55,
+    "requiredTech": "Animal Husbandry",
+    "uniques": [
+      "+[1] Movement",
+      "+[20]% Strength when attacking"
+    ],
+    "uniqueTo": "Orcs",
+    "replaces": "Chariot"
+  },
+  {
+    "name": "Warlord",
+    "unitType": "Mounted",
+    "era": "Age of Empires",
+    "strength": 20,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 110,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "+[25]% Strength for [All] units within [2] tiles",
+      "+[15]% Strength"
+    ],
+    "requiredResource": "Horse",
+    "uniqueTo": "Orcs",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Paladin",
+    "unitType": "Mounted",
+    "era": "Age of Empires",
+    "strength": 20,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 4,
+    "cost": 110,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "+[20]% Strength",
+      "All adjacent units heal [5] HP per turn when healing",
+      "+[10]% Strength for [All] units within [2] tiles"
+    ],
+    "requiredResource": "Horse",
+    "uniqueTo": "Humans",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Steam Knight",
+    "unitType": "Mounted",
+    "era": "Age of Legends",
+    "strength": 30,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 260,
+    "requiredTech": "Steam Power",
+    "uniques": [
+      "+[25]% Strength when attacking",
+      "Ignores terrain cost",
+      "+[1] additional attacks per turn"
+    ],
+    "uniqueTo": "Humans",
+    "replaces": "Magitech Cavalry"
+  },
+  {
+    "name": "Skeleton Warrior",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 7,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 30,
+    "requiredTech": null,
+    "uniques": [
+      "+[10]% Strength",
+      "Does not need removal of [Forest]",
+      "Does not need removal of [Jungle]"
+    ],
+    "uniqueTo": "Undead",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Ghoul",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 12,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 55,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[20]% Strength when attacking",
+      "+[1] Movement",
+      "May capture killed [All] units"
+    ],
+    "uniqueTo": "Undead",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Wraith",
+    "unitType": "Flying",
+    "era": "Age of Empires",
+    "strength": 12,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 120,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[30]% Strength when attacking",
+      "-[20]% Strength when defending"
+    ],
+    "uniqueTo": "Undead",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Lich",
+    "unitType": "Ranged",
+    "era": "Age of Legends",
+    "strength": 14,
+    "rangedStrength": 24,
+    "range": 3,
+    "movement": 2,
+    "cost": 280,
+    "requiredTech": "Rifling",
+    "uniques": [
+      "+[30]% Strength vs [All] units",
+      "Provides [5] [Soul Power]",
+      "May capture killed [All] units",
+      "+[2] additional attacks per turn"
+    ],
+    "uniqueTo": "Undead",
+    "replaces": "Rifleman"
+  },
+  {
+    "name": "Imp",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 6,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 25,
+    "requiredTech": null,
+    "uniques": [
+      "+[1] Movement",
+      "+[20]% Strength when attacking",
+      "-[15]% Strength when defending"
+    ],
+    "uniqueTo": "Demons",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Felguard",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 65,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[25]% Strength",
+      "+[10]% Strength for [All] units within [2] tiles"
+    ],
+    "uniqueTo": "Demons",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Felhound",
+    "unitType": "Mounted",
+    "era": "Age of Arcana",
+    "strength": 10,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 50,
+    "requiredTech": "Animal Husbandry",
+    "uniques": [
+      "+[1] Movement",
+      "Can move after attacking",
+      "+[15]% Strength when attacking"
+    ],
+    "uniqueTo": "Demons",
+    "replaces": "Chariot"
+  },
+  {
+    "name": "Infernal",
+    "unitType": "Melee",
+    "era": "Age of Ascension",
+    "strength": 45,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 380,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "+[40]% Strength",
+      "+[20]% Strength vs [City] units",
+      "Provides [5] [Soul Power]",
+      "-[1] Movement"
+    ],
+    "uniqueTo": "Demons",
+    "replaces": "Mana Golem"
+  },
+  {
+    "name": "Sprite",
+    "unitType": "Ranged",
+    "era": "Age of Tribes",
+    "strength": 3,
+    "rangedStrength": 8,
+    "range": 2,
+    "movement": 3,
+    "cost": 35,
+    "requiredTech": "Archery",
+    "uniques": [
+      "+[1] Movement",
+      "+[1] Range",
+      "-[20]% Strength when defending"
+    ],
+    "uniqueTo": "Fae",
+    "replaces": "Archer"
+  },
+  {
+    "name": "Satyr",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 12,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 3,
+    "cost": 65,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[1] Movement",
+      "+[20]% Strength when attacking",
+      "Ignores terrain cost"
+    ],
+    "uniqueTo": "Fae",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Unicorn Rider",
+    "unitType": "Mounted",
+    "era": "Age of Empires",
+    "strength": 18,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 110,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "+[1] Movement",
+      "All adjacent units heal [10] HP per turn when healing",
+      "+[15]% Strength"
+    ],
+    "uniqueTo": "Fae",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Treant",
+    "unitType": "Melee",
+    "era": "Age of Ascension",
+    "strength": 40,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 380,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "+[50]% Strength when defending",
+      "+[30]% Strength vs [City] units",
+      "-[1] Movement",
+      "Provides [4] [Soul Power]"
+    ],
+    "uniqueTo": "Fae",
+    "replaces": "Mana Golem"
+  },
+  {
+    "name": "Wyrmkin",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 9,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 40,
+    "requiredTech": null,
+    "uniques": [
+      "+[20]% Strength",
+      "+[10]% Strength for [All] units within [2] tiles"
+    ],
+    "uniqueTo": "Dragonborn",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Drake Warrior",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 16,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 70,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[30]% Strength",
+      "+[15]% Strength when attacking"
+    ],
+    "requiredResource": "Iron",
+    "uniqueTo": "Dragonborn",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Wyvern Rider",
+    "unitType": "Flying",
+    "era": "Age of Empires",
+    "strength": 16,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 130,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[20]% Strength when attacking"
+    ],
+    "requiredResource": "Horse",
+    "uniqueTo": "Dragonborn",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Dragon Aspect",
+    "unitType": "Flying",
+    "era": "Age of Ascension",
+    "strength": 30,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 400,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[40]% Strength",
+      "+[1] additional attacks per turn",
+      "Provides [6] [Soul Power]"
+    ],
+    "uniqueTo": "Dragonborn",
+    "replaces": "Mana Golem"
+  },
+  {
+    "name": "Acolyte",
+    "unitType": "Melee",
+    "era": "Age of Tribes",
+    "strength": 7,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 40,
+    "requiredTech": null,
+    "uniques": [
+      "+[15]% Strength when defending",
+      "All adjacent units heal [5] HP per turn when healing"
+    ],
+    "uniqueTo": "Celestials",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Crusader",
+    "unitType": "Melee",
+    "era": "Age of Arcana",
+    "strength": 14,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 2,
+    "cost": 65,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "+[25]% Strength",
+      "All adjacent units heal [5] HP per turn when healing",
+      "+[15]% Strength vs [All] units"
+    ],
+    "requiredResource": "Iron",
+    "uniqueTo": "Celestials",
+    "replaces": "Swordsman"
+  },
+  {
+    "name": "Pegasus Rider",
+    "unitType": "Flying",
+    "era": "Age of Empires",
+    "strength": 18,
+    "rangedStrength": 0,
+    "range": 0,
+    "movement": 5,
+    "cost": 120,
+    "requiredTech": "Chivalry",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[15]% Strength",
+      "All adjacent units heal [10] HP per turn when healing"
+    ],
+    "requiredResource": "Horse",
+    "uniqueTo": "Celestials",
+    "replaces": "Knight"
+  },
+  {
+    "name": "Seraph",
+    "unitType": "Flying",
+    "era": "Age of Legends",
+    "strength": 20,
+    "rangedStrength": 24,
+    "range": 2,
+    "movement": 6,
+    "cost": 300,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost",
+      "+[25]% Strength",
+      "All adjacent units heal [15] HP per turn when healing",
+      "Provides [4] [Soul Power]"
+    ],
+    "uniqueTo": "Celestials",
+    "replaces": "Voidwalker"
+  }
+	  ]
