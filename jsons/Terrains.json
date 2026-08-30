@@ -1,10 +1,301 @@
 [
-	{
-		"name": "Grassland",
-		"type": "Land",
-		"food": 2,
-		"movementCost": 1,
-        "RGB": [0, 163, 0],
-        "uniques": []
-    }
+  {
+    "name": "Plains",
+    "type": "Land",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 1,
+    "production": 1,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Grassland",
+    "type": "Land",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 2,
+    "production": 0,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Desert",
+    "type": "Land",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Tundra",
+    "type": "Land",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 1,
+    "production": 0,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Snow",
+    "type": "Land",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Hill",
+    "type": "Land",
+    "movementCost": 2,
+    "defenceBonus": 0.25,
+    "food": 0,
+    "production": 2,
+    "gold": 0,
+    "uniques": [
+      "Rough terrain"
+    ]
+  },
+  {
+    "name": "Mountain",
+    "type": "Land",
+    "movementCost": 0,
+    "defenceBonus": 0.0,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Impassable",
+      "Rough terrain",
+      "Has an elevation of [4] for visibility purposes"
+    ]
+  },
+  {
+    "name": "Coast",
+    "type": "Water",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 1,
+    "production": 0,
+    "gold": 1,
+    "uniques": []
+  },
+  {
+    "name": "Ocean",
+    "type": "Water",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 1,
+    "production": 0,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Lake",
+    "type": "Water",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 2,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Fresh water"
+    ]
+  },
+  {
+    "name": "Forest",
+    "type": "TerrainFeature",
+    "movementCost": 2,
+    "defenceBonus": 0.25,
+    "food": 1,
+    "production": 1,
+    "gold": 0,
+    "uniques": [
+      "Rough terrain",
+      "Provides a one-time Production bonus to the closest city when cut down"
+    ]
+  },
+  {
+    "name": "Jungle",
+    "type": "TerrainFeature",
+    "movementCost": 2,
+    "defenceBonus": 0.25,
+    "food": 2,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Rough terrain",
+      "Provides a one-time Production bonus to the closest city when cut down"
+    ]
+  },
+  {
+    "name": "Marsh",
+    "type": "TerrainFeature",
+    "movementCost": 3,
+    "defenceBonus": -0.15,
+    "food": 1,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Provides a one-time Production bonus to the closest city when cleared"
+    ]
+  },
+  {
+    "name": "Flood plains",
+    "type": "TerrainFeature",
+    "movementCost": 1,
+    "defenceBonus": -0.1,
+    "food": 2,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Fresh water"
+    ]
+  },
+  {
+    "name": "Oasis",
+    "type": "TerrainFeature",
+    "movementCost": 1,
+    "defenceBonus": -0.1,
+    "food": 3,
+    "production": 0,
+    "gold": 1,
+    "uniques": [
+      "Fresh water"
+    ]
+  },
+  {
+    "name": "Ice",
+    "type": "TerrainFeature",
+    "movementCost": 0,
+    "defenceBonus": 0.0,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Impassable"
+    ]
+  },
+  {
+    "name": "Atoll",
+    "type": "TerrainFeature",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 1,
+    "production": 1,
+    "gold": 0,
+    "uniques": []
+  },
+  {
+    "name": "Volcano",
+    "type": "TerrainFeature",
+    "movementCost": 0,
+    "defenceBonus": 0.0,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Impassable",
+      "Rough terrain",
+      "Has an elevation of [6] for visibility purposes"
+    ]
+  },
+  {
+    "name": "Ley Line",
+    "type": "TerrainFeature",
+    "movementCost": 1,
+    "defenceBonus": 0.1,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Provides [2] [Soul Power]",
+      "Fresh water"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A vein of raw magical energy running through the land. Standing on a Ley Line grants immense power to those who can harness it."
+      }
+    ]
+  },
+  {
+    "name": "Crystal Cavern",
+    "type": "TerrainFeature",
+    "movementCost": 2,
+    "defenceBonus": 0.3,
+    "food": 0,
+    "production": 2,
+    "gold": 1,
+    "uniques": [
+      "Rough terrain",
+      "Provides [1] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A cavern filled with natural mana crystals. The air itself shimmers with magical energy."
+      }
+    ]
+  },
+  {
+    "name": "Haunted Ground",
+    "type": "TerrainFeature",
+    "movementCost": 2,
+    "defenceBonus": 0.2,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Rough terrain",
+      "Provides [1] [Soul Power]",
+      "[-10]% Strength for enemy [All] units in adjacent [Haunted Ground] tiles"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Land stained by ancient tragedy. The restless dead linger here, empowering necromancers and terrifying the living."
+      }
+    ]
+  },
+  {
+    "name": "Sacred Grove",
+    "type": "TerrainFeature",
+    "movementCost": 2,
+    "defenceBonus": 0.3,
+    "food": 1,
+    "production": 0,
+    "gold": 1,
+    "uniques": [
+      "Rough terrain",
+      "Provides [1] [Soul Power]",
+      "[+10]% Strength bonus for [All] units within [2] tiles"
+    ],
+    "civilopediaText": [
+      {
+        "text": "An ancient grove blessed by the spirits of nature. Those who fight for the land gain its protection."
+      }
+    ]
+  },
+  {
+    "name": "Aetheric Rift",
+    "type": "TerrainFeature",
+    "movementCost": 1,
+    "defenceBonus": 0.0,
+    "food": 0,
+    "production": 0,
+    "gold": 0,
+    "uniques": [
+      "Provides [3] [Soul Power]",
+      "Impassable",
+      "Has an elevation of [8] for visibility purposes"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A tear in reality itself. Pure aether pours from this rift, making it the most potent source of Soul Power in existence."
+      }
+    ]
+  }
 ]
