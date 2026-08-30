@@ -1,0 +1,25 @@
+{
+  "name": "GlobalUniques",
+  "uniques": [
+    "[-1] [Happiness] per [2] population [in all cities]",
+    "[+2] [Happiness] [in all cities connected to capital]",
+    "[+1] [Gold] [in all cities connected to capital]",
+    "[+1] [Science] [in all cities connected to capital]",
+    "[+25]% [Production] when constructing [All] units <when the empire is happy>",
+    "[+25]% [Production] when constructing [All] buildings <when the empire is happy>",
+    "[+25]% [Production] when constructing [Wonder] <when the empire is happy>",
+    "[-25]% [Production] when constructing [All] units <when the empire is unhappy>",
+    "[-25]% [Production] when constructing [All] buildings <when the empire is unhappy>",
+    "[-25]% [Production] when constructing [Wonder] <when the empire is unhappy>",
+    "[-2] [Food] [in all cities] <when the empire is unhappy>",
+    "[-33]% [Strength for cities] <when the empire is unhappy>",
+    "Rebel units may spawn <when the empire is unhappy>",
+    "[+10]% [Unhappiness] [in all cities] <during [Golden Age]>",
+    "[+1] [Gold] from every [Trade route]",
+    "[+1] [Science] from every [Trade route]",
+    "[+1] [Culture] from every [Trade route]",
+    "[+1] [Faith] from every [Trade route]",
+    "[+1] [Soul Power] from every [Trade route]"
+  ],
+  "unitUniques": []
+}
