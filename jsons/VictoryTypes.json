@@ -1,9 +1,47 @@
 [
-    {
-        "name": "Domination",
-        "victoryScreenHeader": "Capture all enemy Capitals\nto win!",
-        "milestones": ["Capture all capitals"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    }
+  {
+    "name": "Arcane Ascendancy",
+    "victoryScreenHeader": "Become the master of all magic",
+    "victoryString": "You have mastered the arcane arts and reshaped reality itself! Your civilization stands as the undisputed master of magic!",
+    "defeatString": "You have been outmatched. Another civilization has achieved Arcane Ascendancy.",
+    "hiddenInVictoryScreen": false,
+    "milestones": ["Build [The Reality Engine]", "Have at least [5000] [Soul Power]", "Research [Reality Shaping]"],
+    "civilopediaText": [{"text": "Win by building the Reality Engine, accumulating 5000 Soul Power, and researching Reality Shaping."}]
+  },
+  {
+    "name": "Domination",
+    "victoryScreenHeader": "Conquer all enemy capitals",
+    "victoryString": "Your armies have crushed all opposition! The world bows before your might!",
+    "defeatString": "Your civilization has been conquered. Another empire rules the world.",
+    "hiddenInVictoryScreen": false,
+    "milestones": ["Capture [all] original [Capital] cities"],
+    "civilopediaText": [{"text": "Win by capturing all original capital cities."}]
+  },
+  {
+    "name": "Cultural",
+    "victoryScreenHeader": "Influence all civilizations with your culture",
+    "victoryString": "Your culture has conquered the world without a single sword being drawn! All nations look to you for inspiration!",
+    "defeatString": "Your culture has been overshadowed. Another civilization has won a Cultural Victory.",
+    "hiddenInVictoryScreen": false,
+    "milestones": ["Become [Influential] over [all] civilizations"],
+    "civilopediaText": [{"text": "Win by becoming Influential over all civilizations with your culture."}]
+  },
+  {
+    "name": "Scientific",
+    "victoryScreenHeader": "Launch a vessel to the stars",
+    "victoryString": "Your civilization has reached for the stars and touched the infinite! A new age begins among the cosmos!",
+    "defeatString": "You have been left behind. Another civilization has reached the stars first.",
+    "hiddenInVictoryScreen": false,
+    "milestones": ["Add all [Spaceship part] in capital"],
+    "civilopediaText": [{"text": "Win by constructing all spaceship parts and adding them to your capital."}]
+  },
+  {
+    "name": "Diplomatic",
+    "victoryScreenHeader": "Win the World Council vote",
+    "victoryString": "The world has chosen you as its leader! Through diplomacy and wisdom, you have united the realms!",
+    "defeatString": "The world has chosen another leader. You have lost the diplomatic struggle.",
+    "hiddenInVictoryScreen": false,
+    "milestones": ["Win the [World Leader] election"],
+    "civilopediaText": [{"text": "Win by being elected World Leader at the United Nations."}]
+  }
 ]
