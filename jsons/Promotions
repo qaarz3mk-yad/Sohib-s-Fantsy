@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Elven Precision",
+    "uniques": ["[+15]% Strength when attacking", "[+1] Range"]
+  },
+  {
+    "name": "Poisoned Blades",
+    "uniques": ["[+20]% Strength when attacking", "Adjacent enemy units ending their turn take [5] damage"]
+  },
+  {
+    "name": "Dwarven Resilience",
+    "uniques": ["[+25]% Strength when defending", "[+10] HP when healing"]
+  },
+  {
+    "name": "Berserker Rage",
+    "uniques": ["[+30]% Strength when attacking", "-[15]% Strength when defending"]
+  },
+  {
+    "name": "Knight's Charge",
+    "uniques": ["[+20]% Strength when attacking", "[+1] Movement"]
+  },
+  {
+    "name": "Undead Fortitude",
+    "uniques": ["[+20]% Strength when defending", "Heal [10] HP if it kills a unit"]
+  },
+  {
+    "name": "Demonic Fire",
+    "uniques": ["[+20]% Strength", "Adjacent enemy units ending their turn take [10] damage"]
+  },
+  {
+    "name": "Fae Glamour",
+    "uniques": ["[+1] Movement", "[+15]% Strength when defending", "Ignores terrain cost"]
+  },
+  {
+    "name": "Draconic Might",
+    "uniques": ["[+25]% Strength", "[+15]% Strength for [All] units within [2] tiles"]
+  },
+  {
+    "name": "Holy Light",
+    "uniques": ["[+20]% Strength when defending", "All adjacent units heal [5] HP per turn when healing"]
+  },
+  {
+    "name": "Shock I",
+    "uniques": ["[+15]% Strength when attacking in [Open terrain]"]
+  },
+  {
+    "name": "Shock II",
+    "uniques": ["[+15]% Strength when attacking in [Open terrain]"],
+    "prerequisites": ["Shock I"]
+  },
+  {
+    "name": "Shock III",
+    "uniques": ["[+15]% Strength when attacking in [Open terrain]"],
+    "prerequisites": ["Shock II"]
+  },
+  {
+    "name": "Drill I",
+    "uniques": ["[+15]% Strength when attacking in [Rough terrain]"]
+  },
+  {
+    "name": "Drill II",
+    "uniques": ["[+15]% Strength when attacking in [Rough terrain]"],
+    "prerequisites": ["Drill I"]
+  },
+  {
+    "name": "Drill III",
+    "uniques": ["[+15]% Strength when attacking in [Rough terrain]"],
+    "prerequisites": ["Drill II"]
+  },
+  {
+    "name": "Accuracy I",
+    "uniques": ["[+15]% Strength when attacking in [Open terrain]"]
+  },
+  {
+    "name": "Accuracy II",
+    "uniques": ["[+15]% Strength when attacking in [Open terrain]"],
+    "prerequisites": ["Accuracy I"]
+  },
+  {
+    "name": "Accuracy III",
+    "uniques": ["[+15]% Strength when attacking in [Open terrain]"],
+    "prerequisites": ["Accuracy II"]
+  },
+  {
+    "name": "Barrage I",
+    "uniques": ["[+15]% Strength when attacking in [Rough terrain]"]
+  },
+  {
+    "name": "Barrage II",
+    "uniques": ["[+15]% Strength when attacking in [Rough terrain]"],
+    "prerequisites": ["Barrage I"]
+  },
+  {
+    "name": "Barrage III",
+    "uniques": ["[+15]% Strength when attacking in [Rough terrain]"],
+    "prerequisites": ["Barrage II"]
+  },
+  {
+    "name": "Charge",
+    "uniques": ["[+33]% Strength when attacking", "-[10]% Strength when defending"]
+  },
+  {
+    "name": "Besiege",
+    "uniques": ["[+50]% Strength vs [City] units"]
+  },
+  {
+    "name": "Amphibious",
+    "uniques": ["No penalty for attacking across [Coast]"]
+  },
+  {
+    "name": "Medic",
+    "uniques": ["All adjacent units heal [5] HP per turn when healing"]
+  },
+  {
+    "name": "Medic II",
+    "uniques": ["All adjacent units heal [10] HP per turn when healing"],
+    "prerequisites": ["Medic"]
+  },
+  {
+    "name": "Scouting",
+    "uniques": ["+[1] Sight"]
+  },
+  {
+    "name": "Sentry",
+    "uniques": ["+[1] Sight"],
+    "prerequisites": ["Scouting"]
+  },
+  {
+    "name": "Mobility",
+    "uniques": ["+[1] Movement"]
+  },
+  {
+    "name": "Blitz",
+    "uniques": ["+[1] additional attacks per turn", "Can move after attacking"],
+    "prerequisites": ["Mobility", "Shock III"]
+  },
+  {
+    "name": "Survivalism",
+    "uniques": ["+[5] HP when healing", "All adjacent units heal [5] HP per turn when healing"]
+  },
+  {
+    "name": "Reconnaissance",
+    "uniques": ["+[2] Sight", "Can see over [Impassable] tiles"]
+  },
+  {
+    "name": "Indomitable",
+    "uniques": ["+[25]% Strength when defending", "[+20] HP when healing"]
+  },
+  {
+    "name": "Soul Infused",
+    "uniques": ["[+10]% Strength", "Provides [1] [Soul Power]"]
+  },
+  {
+    "name": "Soul Empowered",
+    "uniques": ["[+20]% Strength", "Provides [2] [Soul Power]"],
+    "prerequisites": ["Soul Infused"]
+  },
+  {
+    "name": "Arcane Shield",
+    "uniques": ["[+30]% Strength when defending", "Provides [1] [Soul Power]"]
+  },
+  {
+    "name": "Elemental Weapon",
+    "uniques": ["[+25]% Strength when attacking", "Adjacent enemy units ending their turn take [5] damage"]
+  }
+]
