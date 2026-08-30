@@ -1,0 +1,1273 @@
+[
+  {
+    "name": "Soul Conduit I",
+    "cost": 100,
+    "uniques": [
+      "[+5]% Strength",
+      "[+5]% Strength for cities",
+      "Costs [50] [Soul Power]",
+      "Provides [2] [Soul Power]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Arcane Fundamentals",
+    "isNationalWonder": true
+  },
+  {
+    "name": "Soul Conduit II",
+    "cost": 150,
+    "uniques": [
+      "[+10]% Strength",
+      "[+10]% Strength for cities",
+      "Costs [100] [Soul Power]",
+      "Provides [3] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [100]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Soul Binding",
+    "requiredResource": "Soul Conduit I",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit I"
+  },
+  {
+    "name": "Soul Conduit III",
+    "cost": 200,
+    "uniques": [
+      "[+15]% Strength",
+      "[+15]% Strength for cities",
+      "Costs [200] [Soul Power]",
+      "Provides [4] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [250]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Elementalism",
+    "requiredResource": "Soul Conduit II",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit II"
+  },
+  {
+    "name": "Soul Conduit IV",
+    "cost": 250,
+    "uniques": [
+      "[+20]% Strength",
+      "[+20]% Strength for cities",
+      "Costs [350] [Soul Power]",
+      "Provides [5] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [500]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Necromancy",
+    "requiredResource": "Soul Conduit III",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit III"
+  },
+  {
+    "name": "Soul Conduit V",
+    "cost": 300,
+    "uniques": [
+      "[+25]% Strength",
+      "[+25]% Strength for cities",
+      "Costs [500] [Soul Power]",
+      "Provides [6] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [800]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Summoning",
+    "requiredResource": "Soul Conduit IV",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit IV"
+  },
+  {
+    "name": "Soul Conduit VI",
+    "cost": 350,
+    "uniques": [
+      "[+30]% Strength",
+      "[+30]% Strength for cities",
+      "Costs [700] [Soul Power]",
+      "Provides [7] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [1200]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Transmutation",
+    "requiredResource": "Soul Conduit V",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit V"
+  },
+  {
+    "name": "Soul Conduit VII",
+    "cost": 400,
+    "uniques": [
+      "[+35]% Strength",
+      "[+35]% Strength for cities",
+      "Costs [900] [Soul Power]",
+      "Provides [8] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [1800]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Conjuration",
+    "requiredResource": "Soul Conduit VI",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit VI"
+  },
+  {
+    "name": "Soul Conduit VIII",
+    "cost": 450,
+    "uniques": [
+      "[+40]% Strength",
+      "[+40]% Strength for cities",
+      "Costs [1200] [Soul Power]",
+      "Provides [10] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [2500]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Void Magic",
+    "requiredResource": "Soul Conduit VII",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit VII"
+  },
+  {
+    "name": "Soul Conduit IX",
+    "cost": 500,
+    "uniques": [
+      "[+45]% Strength",
+      "[+45]% Strength for cities",
+      "Costs [1500] [Soul Power]",
+      "Provides [12] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [3500]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "requiredResource": "Soul Conduit VIII",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit VIII"
+  },
+  {
+    "name": "Soul Conduit X",
+    "cost": 600,
+    "uniques": [
+      "[+50]% Strength",
+      "[+50]% Strength for cities",
+      "Costs [2000] [Soul Power]",
+      "Provides [15] [Soul Power]",
+      "Only available <when number of [Soul Power] is more than [5000]>"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Reality Shaping",
+    "requiredResource": "Soul Conduit IX",
+    "isNationalWonder": true,
+    "requiredBuilding": "Soul Conduit IX"
+  },
+  {
+    "name": "Mana Siphon",
+    "cost": 60,
+    "uniques": [
+      "[+2] [Soul Power]",
+      "[+1] [Science]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Arcane Fundamentals"
+  },
+  {
+    "name": "Soul Forge",
+    "cost": 120,
+    "uniques": [
+      "[+4] [Soul Power]",
+      "[+2] [Production]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Soul Binding"
+  },
+  {
+    "name": "Ley Line Tap",
+    "cost": 180,
+    "uniques": [
+      "[+6] [Soul Power]",
+      "[+3] [Science]",
+      "[+10]% [Science]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Elementalism"
+  },
+  {
+    "name": "Necrotic Battery",
+    "cost": 200,
+    "uniques": [
+      "[+8] [Soul Power]",
+      "[+2] [Food]",
+      "[+2] [Production]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Necromancy"
+  },
+  {
+    "name": "Aetheric Collector",
+    "cost": 250,
+    "uniques": [
+      "[+10] [Soul Power]",
+      "[+4] [Science]",
+      "[+10]% [Production]"
+    ],
+    "maintenance": 4,
+    "requiredTech": "Transmutation"
+  },
+  {
+    "name": "Void Reactor",
+    "cost": 300,
+    "uniques": [
+      "[+15] [Soul Power]",
+      "[+5] [Science]",
+      "[+15]% [Science]"
+    ],
+    "maintenance": 5,
+    "requiredTech": "Void Magic"
+  },
+  {
+    "name": "Divine Capacitor",
+    "cost": 400,
+    "uniques": [
+      "[+20] [Soul Power]",
+      "[+5] [Faith]",
+      "[+5] [Culture]",
+      "[+10]% [Faith]"
+    ],
+    "maintenance": 6,
+    "requiredTech": "Divine Ascension"
+  },
+  {
+    "name": "Reality Anchor",
+    "cost": 500,
+    "uniques": [
+      "[+25] [Soul Power]",
+      "[+10] [Science]",
+      "[+10] [Production]",
+      "[+10]% [Production]"
+    ],
+    "maintenance": 7,
+    "requiredTech": "Reality Shaping"
+  },
+  {
+    "name": "Monument",
+    "cost": 40,
+    "uniques": [
+      "+[2] [Culture]"
+    ],
+    "maintenance": 0
+  },
+  {
+    "name": "Granary",
+    "cost": 60,
+    "uniques": [
+      "+[2] [Food]",
+      "[+1] [Food] from every [Wheat]",
+      "[+1] [Food] from every [Bananas]",
+      "[+1] [Food] from every [Deer]",
+      "[+1] [Food] from every [Ironroot]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Agriculture"
+  },
+  {
+    "name": "Stone Works",
+    "cost": 80,
+    "uniques": [
+      "+[1] [Production]",
+      "[+1] [Production] from every [Stone]",
+      "[+1] [Production] from every [Marble]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Masonry",
+    "requiredBuilding": "Granary"
+  },
+  {
+    "name": "Library",
+    "cost": 80,
+    "uniques": [
+      "+[2] [Science]",
+      "[+1] [Science] per [2] population [in this city]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Writing"
+  },
+  {
+    "name": "Shrine",
+    "cost": 40,
+    "uniques": [
+      "+[1] [Faith]",
+      "[+1] [Faith] from every [Whisperwood]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Pottery"
+  },
+  {
+    "name": "Barracks",
+    "cost": 60,
+    "uniques": [
+      "+[15] XP gained from combat",
+      "New [All] units start with [15] XP [in this city]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Bronze Working"
+  },
+  {
+    "name": "Market",
+    "cost": 80,
+    "uniques": [
+      "+[2] [Gold]",
+      "[+1] [Gold] from every [Gold]",
+      "[+1] [Gold] from every [Silver]",
+      "[+1] [Gold] from every [Ambergris]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Currency"
+  },
+  {
+    "name": "Workshop",
+    "cost": 100,
+    "uniques": [
+      "+[2] [Production]",
+      "[+1] [Production] from every [Iron]",
+      "[+1] [Production] from every [Copper]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Construction"
+  },
+  {
+    "name": "Colosseum",
+    "cost": 100,
+    "uniques": [
+      "+[2] [Happiness]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Construction"
+  },
+  {
+    "name": "Temple",
+    "cost": 100,
+    "uniques": [
+      "+[3] [Faith]",
+      "[+1] [Faith] from every [Whisperwood]",
+      "[+1] [Faith] from every [Glowshroom]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Theology",
+    "requiredBuilding": "Shrine"
+  },
+  {
+    "name": "Aqueduct",
+    "cost": 100,
+    "uniques": [
+      "40% of [Food] is carried over after a new citizen is born [in this city]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Engineering"
+  },
+  {
+    "name": "University",
+    "cost": 160,
+    "uniques": [
+      "+[3] [Science]",
+      "[+1] [Science] from every [Jungle]",
+      "[+1] [Science] from every [Forest]",
+      "[+10]% [Science]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Philosophy",
+    "requiredBuilding": "Library"
+  },
+  {
+    "name": "Bank",
+    "cost": 200,
+    "uniques": [
+      "+[2] [Gold]",
+      "[+1] [Gold] per [2] population [in this city]",
+      "[+10]% [Gold]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Banking",
+    "requiredBuilding": "Market"
+  },
+  {
+    "name": "Courthouse",
+    "cost": 160,
+    "uniques": [
+      "Remove extra unhappiness from annexed cities"
+    ],
+    "maintenance": 4,
+    "requiredTech": "Civil Service"
+  },
+  {
+    "name": "Castle",
+    "cost": 200,
+    "uniques": [
+      "+[7] City Strength",
+      "+[25] City Health"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Chivalry"
+  },
+  {
+    "name": "Forge",
+    "cost": 150,
+    "uniques": [
+      "+[1] [Production] from every [Iron]",
+      "[+1] [Production] from every [Mithril]",
+      "[+15]% [Production] when constructing [All] units [in this city]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Steel Working",
+    "requiredBuilding": "Workshop"
+  },
+  {
+    "name": "Garden",
+    "cost": 120,
+    "uniques": [
+      "+[25]% Great Person generation [in this city]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Windmill",
+    "cost": 180,
+    "uniques": [
+      "+[2] [Production]",
+      "[+10]% [Production] when constructing [All] buildings [in this city]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Machinery"
+  },
+  {
+    "name": "Public School",
+    "cost": 300,
+    "uniques": [
+      "+[3] [Science]",
+      "[+1] [Science] per [2] population [in this city]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Printing Press",
+    "requiredBuilding": "University"
+  },
+  {
+    "name": "Military Academy",
+    "cost": 250,
+    "uniques": [
+      "+[30] XP gained from combat",
+      "New [All] units start with [30] XP [in this city]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Military Tradition",
+    "requiredBuilding": "Barracks"
+  },
+  {
+    "name": "Theater",
+    "cost": 200,
+    "uniques": [
+      "+[3] [Culture]",
+      "[+2] [Happiness]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Printing Press",
+    "requiredBuilding": "Colosseum"
+  },
+  {
+    "name": "Museum",
+    "cost": 300,
+    "uniques": [
+      "+[4] [Culture]",
+      "Contains [2] slots for [Great Work of Art]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Archaeology",
+    "requiredBuilding": "Theater"
+  },
+  {
+    "name": "Factory",
+    "cost": 300,
+    "uniques": [
+      "+[4] [Production]",
+      "[+10]% [Production]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Coal",
+    "requiredBuilding": "Workshop"
+  },
+  {
+    "name": "Hospital",
+    "cost": 400,
+    "uniques": [
+      "+[5] [Food]",
+      "[+10]% [Food] [in this city]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Biology",
+    "requiredBuilding": "Aqueduct"
+  },
+  {
+    "name": "Research Lab",
+    "cost": 500,
+    "uniques": [
+      "+[4] [Science]",
+      "[+10]% [Science]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Plastics",
+    "requiredBuilding": "Public School"
+  },
+  {
+    "name": "Broadcast Tower",
+    "cost": 600,
+    "uniques": [
+      "+[3] [Culture]",
+      "[+1] [Culture] per [2] population [in this city]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Radio",
+    "requiredBuilding": "Museum"
+  },
+  {
+    "name": "Medical Lab",
+    "cost": 450,
+    "uniques": [
+      "+[5] [Food]",
+      "[+2] [Food] from every [Bananas]",
+      "[+2] [Food] from every [Citrus]",
+      "[+2] [Food] from every [Wheat]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Penicillin",
+    "requiredBuilding": "Hospital"
+  },
+  {
+    "name": "Solar Plant",
+    "cost": 500,
+    "uniques": [
+      "+[5] [Production]",
+      "[+15]% [Production]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Ecology",
+    "requiredBuilding": "Factory"
+  },
+  {
+    "name": "Nuclear Plant",
+    "cost": 500,
+    "uniques": [
+      "+[5] [Production]",
+      "[+15]% [Production]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Nuclear Fission",
+    "requiredResource": "Uranium",
+    "requiredBuilding": "Factory"
+  },
+  {
+    "name": "Spaceship Factory",
+    "cost": 750,
+    "uniques": [
+      "+[50]% [Production] when constructing [Spaceship part] [in this city]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Robotics",
+    "requiredBuilding": "Factory"
+  },
+  {
+    "name": "Stock Exchange",
+    "cost": 600,
+    "uniques": [
+      "+[3] [Gold]",
+      "[+1] [Gold] per [2] population [in this city]",
+      "[+10]% [Gold]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Electricity",
+    "requiredBuilding": "Bank"
+  },
+  {
+    "name": "Police Station",
+    "cost": 300,
+    "uniques": [
+      "-[25]% [Unhappiness] from [Population] [in this city]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Radio"
+  },
+  {
+    "name": "Military Base",
+    "cost": 450,
+    "uniques": [
+      "+[12] City Strength",
+      "+[25] City Health"
+    ],
+    "maintenance": 4,
+    "requiredTech": "Replaceable Parts",
+    "requiredBuilding": "Castle"
+  },
+  {
+    "name": "Arsenal",
+    "cost": 350,
+    "uniques": [
+      "+[9] City Strength",
+      "[+25] City Health"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Railroad",
+    "requiredBuilding": "Castle"
+  },
+  {
+    "name": "Walls",
+    "cost": 60,
+    "uniques": [
+      "+[5] City Strength",
+      "[+50] City Health"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Harbor",
+    "cost": 120,
+    "uniques": [
+      "[+1] [Production] from every [Coast]",
+      "[+1] [Gold] from every [Sea resource]",
+      "[+1] [Food] from every [Fish]",
+      "[+1] [Food] from every [Crab]",
+      "[+1] [Food] from every [Whale]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Compass"
+  },
+  {
+    "name": "Seaport",
+    "cost": 250,
+    "uniques": [
+      "[+1] [Production] from every [Sea resource]",
+      "[+1] [Gold] from every [Sea resource]",
+      "[+15]% [Production] when constructing [All] naval units [in this city]"
+    ],
+    "maintenance": 3,
+    "requiredTech": "Navigation",
+    "requiredBuilding": "Harbor"
+  },
+  {
+    "name": "Lighthouse",
+    "cost": 80,
+    "uniques": [
+      "+[1] [Food] from every [Coast]",
+      "[+1] [Gold] from every [Coast]",
+      "[+1] [Production] from every [Sea resource]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Optics"
+  },
+  {
+    "name": "The Great Pyramid",
+    "cost": 185,
+    "uniques": [
+      "Free [Worker] appears",
+      "+[2] [Culture]",
+      "+[1] [Production] from every [Desert]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Masonry",
+    "isWonder": true
+  },
+  {
+    "name": "Stonehenge",
+    "cost": 120,
+    "uniques": [
+      "Free [Great Person - Faith] appears",
+      "+[5] [Faith]",
+      "+[2] [Culture]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Calendar",
+    "isWonder": true
+  },
+  {
+    "name": "The Great Library",
+    "cost": 185,
+    "uniques": [
+      "Free [Great Person - Science] appears",
+      "+[3] [Science]",
+      "[+1] [Science] per [2] population [in this city]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Writing",
+    "isWonder": true
+  },
+  {
+    "name": "The Oracle",
+    "cost": 185,
+    "uniques": [
+      "Free [Social Policy]",
+      "+[3] [Culture]",
+      "+[2] [Faith]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Theology",
+    "isWonder": true
+  },
+  {
+    "name": "The Hanging Gardens",
+    "cost": 185,
+    "uniques": [
+      "+[6] [Food]",
+      "[+10]% [Food] [in this city]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Mathematics",
+    "isWonder": true
+  },
+  {
+    "name": "The Colossus",
+    "cost": 185,
+    "uniques": [
+      "+[3] [Gold] from every [Coast]",
+      "+[1] [Production] from every [Coast]",
+      "Free [Work Boat] appears"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Iron Working",
+    "isWonder": true
+  },
+  {
+    "name": "The Parthenon",
+    "cost": 185,
+    "uniques": [
+      "+[4] [Culture]",
+      "Contains [1] slots for [Great Work of Art]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Drama and Poetry",
+    "isWonder": true
+  },
+  {
+    "name": "Chichen Itza",
+    "cost": 185,
+    "uniques": [
+      "+[4] [Culture]",
+      "+[2] [Happiness]",
+      "Golden Age length increased by [50]%"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Civil Service",
+    "isWonder": true
+  },
+  {
+    "name": "Angkor Wat",
+    "cost": 185,
+    "uniques": [
+      "+[2] [Culture]",
+      "[+2] [Faith]",
+      "+[1] [Food] from every [Fresh Water]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Theology",
+    "isWonder": true
+  },
+  {
+    "name": "Hagia Sophia",
+    "cost": 185,
+    "uniques": [
+      "Free [Great Person - Faith] appears",
+      "+[3] [Faith]",
+      "+[2] [Culture]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Theology",
+    "isWonder": true
+  },
+  {
+    "name": "Notre Dame",
+    "cost": 185,
+    "uniques": [
+      "+[4] [Faith]",
+      "+[3] [Culture]",
+      "+[2] [Happiness]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Physics",
+    "isWonder": true
+  },
+  {
+    "name": "Machu Picchu",
+    "cost": 185,
+    "uniques": [
+      "+[2] [Gold] from every [Mountain]",
+      "+[2] [Culture] from every [Mountain]",
+      "+[25]% [Gold] from [Trade route] income"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Guilds",
+    "isWonder": true
+  },
+  {
+    "name": "The Forbidden Palace",
+    "cost": 500,
+    "uniques": [
+      "-[10]% [Unhappiness] from [Population] [in all cities]",
+      "+[2] [Culture]",
+      "+[2] [Gold]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Banking",
+    "isWonder": true
+  },
+  {
+    "name": "The Sistine Chapel",
+    "cost": 500,
+    "uniques": [
+      "+[6] [Culture]",
+      "+[25]% [Culture] [in all cities]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Printing Press",
+    "isWonder": true
+  },
+  {
+    "name": "The Taj Mahal",
+    "cost": 500,
+    "uniques": [
+      "+[4] [Culture]",
+      "+[2] [Happiness]",
+      "Golden Age length increased by [50]%"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Printing Press",
+    "isWonder": true
+  },
+  {
+    "name": "The Eiffel Tower",
+    "cost": 1060,
+    "uniques": [
+      "+[5] [Happiness]",
+      "+[5] [Culture]",
+      "+[2] [Gold] from every [Coast]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Radio",
+    "isWonder": true
+  },
+  {
+    "name": "The Statue of Liberty",
+    "cost": 1060,
+    "uniques": [
+      "+[3] [Production] from every [Specialist]",
+      "+[1] [Production] per [2] population [in this city]",
+      "Free [Social Policy]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Replaceable Parts",
+    "isWonder": true
+  },
+  {
+    "name": "The Pentagon",
+    "cost": 1250,
+    "uniques": [
+      "-[20]% [Gold] cost of upgrading",
+      "+[3] [Production] when constructing [All] units [in this city]",
+      "+[2] [Science]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Computers",
+    "isWonder": true
+  },
+  {
+    "name": "The United Nations",
+    "cost": 1250,
+    "uniques": [
+      "+[5] [Diplomatic Victory] points",
+      "+[4] [Culture]",
+      "+[4] [Gold]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Globalization",
+    "isWonder": true
+  },
+  {
+    "name": "The Hubble Space Telescope",
+    "cost": 1250,
+    "uniques": [
+      "Free [Great Person - Science] appears",
+      "+[2] [Great Person - Science]",
+      "+[25]% [Science] [in this city]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Satellites",
+    "isWonder": true
+  },
+  {
+    "name": "The CN Tower",
+    "cost": 1250,
+    "uniques": [
+      "+[1] [Population] [in all cities]",
+      "+[2] [Gold] from every [Coast]",
+      "+[2] [Culture] from every [Coast]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Telecommunications",
+    "isWonder": true
+  },
+  {
+    "name": "The Soul Well",
+    "cost": 250,
+    "uniques": [
+      "+[10] [Soul Power]",
+      "+[5] [Soul Power] from every [Ley Line]",
+      "+[2] [Soul Power] from every [Crystal Cavern]",
+      "Provides [5] [Soul Power]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Soul Binding",
+    "isWonder": true
+  },
+  {
+    "name": "The World Tree",
+    "cost": 300,
+    "uniques": [
+      "+[5] [Food]",
+      "+[5] [Production]",
+      "+[5] [Culture]",
+      "+[5] [Faith]",
+      "+[2] [Soul Power] from every [Forest]",
+      "+[2] [Soul Power] from every [Jungle]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Elementalism",
+    "isWonder": true
+  },
+  {
+    "name": "The Necropolis",
+    "cost": 350,
+    "uniques": [
+      "+[8] [Soul Power]",
+      "+[3] [Soul Power] from every [Haunted Ground]",
+      "May capture killed [All] units",
+      "+[20]% Strength for [All] units"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Necromancy",
+    "isWonder": true
+  },
+  {
+    "name": "The Infernal Forge",
+    "cost": 400,
+    "uniques": [
+      "+[10] [Production]",
+      "+[15]% [Production] when constructing [All] units [in this city]",
+      "+[5] [Soul Power]",
+      "All newly-trained [All] units [in this city] receive the [Demonic Fire] promotion"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Summoning",
+    "isWonder": true
+  },
+  {
+    "name": "The Astral Observatory",
+    "cost": 500,
+    "uniques": [
+      "+[8] [Science]",
+      "+[15]% [Science]",
+      "+[5] [Soul Power]",
+      "+[2] [Soul Power] from every [Star Metal]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Transmutation",
+    "isWonder": true
+  },
+  {
+    "name": "The Void Gate",
+    "cost": 600,
+    "uniques": [
+      "+[15] [Soul Power]",
+      "+[5] [Soul Power] from every [Aetheric Rift]",
+      "+[30]% Strength for [All] units",
+      "+[30]% Strength for cities"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Void Magic",
+    "isWonder": true
+  },
+  {
+    "name": "The Divine Throne",
+    "cost": 800,
+    "uniques": [
+      "+[20] [Soul Power]",
+      "+[10] [Faith]",
+      "+[10] [Culture]",
+      "+[50]% Strength for [All] units",
+      "+[50]% Strength for cities",
+      "Golden Age length increased by [100]%"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Divine Ascension",
+    "isWonder": true
+  },
+  {
+    "name": "The Reality Engine",
+    "cost": 1000,
+    "uniques": [
+      "+[30] [Soul Power]",
+      "+[10] [Science]",
+      "+[10] [Production]",
+      "+[10] [Culture]",
+      "+[75]% Strength for [All] units",
+      "+[75]% Strength for cities",
+      "+[2] additional attacks per turn for [All] units"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Reality Shaping",
+    "isWonder": true
+  },
+  {
+    "name": "Moonwell",
+    "cost": 80,
+    "uniques": [
+      "+[3] [Faith]",
+      "+[2] [Soul Power]",
+      "+[1] [Food] from every [Forest]",
+      "All adjacent units heal [10] HP per turn when healing"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "uniqueTo": "High Elves"
+  },
+  {
+    "name": "Arcane Sanctum",
+    "cost": 150,
+    "uniques": [
+      "+[4] [Science]",
+      "+[3] [Soul Power]",
+      "+[10]% [Science]",
+      "All newly-trained [Ranged] units [in this city] receive the [Elven Precision] promotion"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Arcane Fundamentals",
+    "uniqueTo": "High Elves"
+  },
+  {
+    "name": "Spider Temple",
+    "cost": 80,
+    "uniques": [
+      "+[3] [Faith]",
+      "+[2] [Soul Power]",
+      "+[1] [Production] from every [Hill]",
+      "All newly-trained [Melee] units [in this city] receive the [Poisoned Blades] promotion"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "uniqueTo": "Dark Elves"
+  },
+  {
+    "name": "Shadow Forge",
+    "cost": 150,
+    "uniques": [
+      "+[4] [Production]",
+      "+[2] [Soul Power]",
+      "+[15]% [Production] when constructing [All] units [in this city]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Steel Working",
+    "uniqueTo": "Dark Elves"
+  },
+  {
+    "name": "Great Hall",
+    "cost": 100,
+    "uniques": [
+      "+[3] [Production]",
+      "+[2] [Happiness]",
+      "+[1] [Production] from every [Mountain]",
+      "+[20]% Strength for cities"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Masonry",
+    "uniqueTo": "Dwarves"
+  },
+  {
+    "name": "Rune Forge",
+    "cost": 150,
+    "uniques": [
+      "+[5] [Production]",
+      "+[2] [Soul Power]",
+      "[+1] [Production] from every [Mithril]",
+      "[+1] [Production] from every [Adamantine]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Steel Working",
+    "uniqueTo": "Dwarves"
+  },
+  {
+    "name": "War Camp",
+    "cost": 60,
+    "uniques": [
+      "+[2] [Production]",
+      "+[15] XP gained from combat",
+      "New [All] units start with [15] XP [in this city]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Bronze Working",
+    "uniqueTo": "Orcs"
+  },
+  {
+    "name": "Shaman Hut",
+    "cost": 80,
+    "uniques": [
+      "+[2] [Faith]",
+      "+[2] [Soul Power]",
+      "+[1] [Food] from every [Plains]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Mysticism",
+    "uniqueTo": "Orcs"
+  },
+  {
+    "name": "Town Hall",
+    "cost": 80,
+    "uniques": [
+      "+[2] [Gold]",
+      "+[1] [Gold] from every [Coast]",
+      "+[10]% [Gold] from [Trade route] income"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Currency",
+    "uniqueTo": "Humans"
+  },
+  {
+    "name": "Knights' Chapterhouse",
+    "cost": 120,
+    "uniques": [
+      "+[3] [Production]",
+      "+[2] [Soul Power]",
+      "All newly-trained [Mounted] units [in this city] receive the [Knight's Charge] promotion"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Chivalry",
+    "uniqueTo": "Humans"
+  },
+  {
+    "name": "Bone Pile",
+    "cost": 60,
+    "uniques": [
+      "+[2] [Production]",
+      "+[2] [Soul Power]",
+      "May capture killed [All] units"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Mysticism",
+    "uniqueTo": "Undead"
+  },
+  {
+    "name": "Dark Cathedral",
+    "cost": 100,
+    "uniques": [
+      "+[4] [Faith]",
+      "+[3] [Soul Power]",
+      "+[1] [Soul Power] from every [Haunted Ground]"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "uniqueTo": "Undead"
+  },
+  {
+    "name": "Fel Pit",
+    "cost": 80,
+    "uniques": [
+      "+[3] [Production]",
+      "+[2] [Soul Power]",
+      "+[1] [Production] from every [Desert]",
+      "+[15]% [Production] when constructing [All] units [in this city]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Bronze Working",
+    "uniqueTo": "Demons"
+  },
+  {
+    "name": "Soul Harvester",
+    "cost": 120,
+    "uniques": [
+      "+[5] [Soul Power]",
+      "Earn [5]% of killed [All] unit's [Strength] as [Soul Power]",
+      "+[10]% Strength for [All] units"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Necromancy",
+    "uniqueTo": "Demons"
+  },
+  {
+    "name": "Fairy Ring",
+    "cost": 60,
+    "uniques": [
+      "+[2] [Culture]",
+      "+[2] [Soul Power]",
+      "+[1] [Food] from every [Forest]",
+      "+[1] [Culture] from every [Forest]"
+    ],
+    "maintenance": 0,
+    "requiredTech": "Mysticism",
+    "uniqueTo": "Fae"
+  },
+  {
+    "name": "Dreaming Spire",
+    "cost": 120,
+    "uniques": [
+      "+[4] [Culture]",
+      "+[3] [Soul Power]",
+      "+[15]% [Culture]",
+      "All newly-trained [All] units [in this city] receive the [Fae Glamour] promotion"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Arcane Fundamentals",
+    "uniqueTo": "Fae"
+  },
+  {
+    "name": "Wyrm Nest",
+    "cost": 100,
+    "uniques": [
+      "+[3] [Production]",
+      "+[2] [Soul Power]",
+      "+[1] [Production] from every [Hill]",
+      "All newly-trained [All] units [in this city] receive the [Draconic Might] promotion"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Animal Husbandry",
+    "uniqueTo": "Dragonborn"
+  },
+  {
+    "name": "Draconic Library",
+    "cost": 150,
+    "uniques": [
+      "+[4] [Science]",
+      "+[2] [Soul Power]",
+      "[+1] [Science] from every [Dragon Bone]"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Writing",
+    "uniqueTo": "Dragonborn"
+  },
+  {
+    "name": "Shining Spire",
+    "cost": 100,
+    "uniques": [
+      "+[4] [Faith]",
+      "+[2] [Soul Power]",
+      "+[2] [Happiness]",
+      "All adjacent units heal [15] HP per turn when healing"
+    ],
+    "maintenance": 1,
+    "requiredTech": "Theology",
+    "uniqueTo": "Celestials"
+  },
+  {
+    "name": "Sanctum of Light",
+    "cost": 150,
+    "uniques": [
+      "+[3] [Faith]",
+      "+[3] [Soul Power]",
+      "+[10]% Strength for [All] units",
+      "+[10]% Strength for cities"
+    ],
+    "maintenance": 2,
+    "requiredTech": "Arcane Fundamentals",
+    "uniqueTo": "Celestials"
+  }
+]
