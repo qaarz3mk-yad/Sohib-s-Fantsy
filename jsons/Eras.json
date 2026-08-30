@@ -1,16 +1,184 @@
 [
-    {
-        "name": "Tier 1 Era",
-        "researchAgreementCost": 150,
-        "startingSettlerCount": 1, 
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Rifleman",
-        "settlerPopulation": 1,
-        "baseUnitBuyCost": 200,
-        "embarkDefense": 3,
-        "startPercent": 0,
-        "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
-    }
+  {
+    "name": "Age of Dawn",
+    "startingMilitaryUnit": "Militia",
+    "startingGold": 0,
+    "startingCulture": 0,
+    "settlerPopulation": 1,
+    "settlerBuildings": [],
+    "startingObsoleteWonders": [],
+    "baseUnitBuyCost": 150,
+    "embarkDefense": 2,
+    "startPercent": 0,
+    "citySound": "cityClassical",
+    "uniques": []
+  },
+  {
+    "name": "Age of Tribes",
+    "startingMilitaryUnit": "Warrior",
+    "startingGold": 100,
+    "startingCulture": 100,
+    "settlerPopulation": 2,
+    "settlerBuildings": [
+      "Granary"
+    ],
+    "startingObsoleteWonders": [],
+    "baseUnitBuyCost": 175,
+    "embarkDefense": 3,
+    "startPercent": 10,
+    "citySound": "cityClassical",
+    "uniques": []
+  },
+  {
+    "name": "Age of Arcana",
+    "startingMilitaryUnit": "Swordsman",
+    "startingGold": 250,
+    "startingCulture": 200,
+    "settlerPopulation": 3,
+    "settlerBuildings": [
+      "Granary",
+      "Monument"
+    ],
+    "startingObsoleteWonders": [],
+    "baseUnitBuyCost": 200,
+    "embarkDefense": 4,
+    "startPercent": 25,
+    "citySound": "cityMedieval",
+    "uniques": []
+  },
+  {
+    "name": "Age of Empires",
+    "startingMilitaryUnit": "Knight",
+    "startingGold": 500,
+    "startingCulture": 400,
+    "settlerPopulation": 4,
+    "settlerBuildings": [
+      "Granary",
+      "Monument",
+      "Library"
+    ],
+    "startingObsoleteWonders": [
+      "Great Pyramid",
+      "Stonehenge"
+    ],
+    "baseUnitBuyCost": 250,
+    "embarkDefense": 5,
+    "startPercent": 40,
+    "citySound": "cityMedieval",
+    "uniques": []
+  },
+  {
+    "name": "Age of War",
+    "startingMilitaryUnit": "Cuirassier",
+    "startingGold": 800,
+    "startingCulture": 600,
+    "settlerPopulation": 5,
+    "settlerBuildings": [
+      "Granary",
+      "Monument",
+      "Library",
+      "Workshop"
+    ],
+    "startingObsoleteWonders": [
+      "Great Pyramid",
+      "Stonehenge",
+      "Hanging Gardens",
+      "Oracle"
+    ],
+    "baseUnitBuyCost": 300,
+    "embarkDefense": 6,
+    "startPercent": 55,
+    "citySound": "cityIndustrial",
+    "uniques": []
+  },
+  {
+    "name": "Age of Legends",
+    "startingMilitaryUnit": "Rifleman",
+    "startingGold": 1200,
+    "startingCulture": 1000,
+    "settlerPopulation": 6,
+    "settlerBuildings": [
+      "Granary",
+      "Monument",
+      "Library",
+      "Workshop",
+      "University"
+    ],
+    "startingObsoleteWonders": [
+      "Great Pyramid",
+      "Stonehenge",
+      "Hanging Gardens",
+      "Oracle",
+      "Parthenon",
+      "Chichen Itza"
+    ],
+    "baseUnitBuyCost": 375,
+    "embarkDefense": 7,
+    "startPercent": 70,
+    "citySound": "cityIndustrial",
+    "uniques": []
+  },
+  {
+    "name": "Age of Ascension",
+    "startingMilitaryUnit": "Great War Infantry",
+    "startingGold": 2000,
+    "startingCulture": 1500,
+    "settlerPopulation": 7,
+    "settlerBuildings": [
+      "Granary",
+      "Monument",
+      "Library",
+      "Workshop",
+      "University",
+      "Public School"
+    ],
+    "startingObsoleteWonders": [
+      "Great Pyramid",
+      "Stonehenge",
+      "Hanging Gardens",
+      "Oracle",
+      "Parthenon",
+      "Chichen Itza",
+      "Angkor Wat",
+      "Hagia Sophia"
+    ],
+    "baseUnitBuyCost": 450,
+    "embarkDefense": 8,
+    "startPercent": 85,
+    "citySound": "cityModern",
+    "uniques": []
+  },
+  {
+    "name": "Age of Divinity",
+    "startingMilitaryUnit": "Mechanized Infantry",
+    "startingGold": 3000,
+    "startingCulture": 2500,
+    "settlerPopulation": 8,
+    "settlerBuildings": [
+      "Granary",
+      "Monument",
+      "Library",
+      "Workshop",
+      "University",
+      "Public School",
+      "Research Lab"
+    ],
+    "startingObsoleteWonders": [
+      "Great Pyramid",
+      "Stonehenge",
+      "Hanging Gardens",
+      "Oracle",
+      "Parthenon",
+      "Chichen Itza",
+      "Angkor Wat",
+      "Hagia Sophia",
+      "Notre Dame",
+      "Machu Picchu"
+    ],
+    "baseUnitBuyCost": 550,
+    "embarkDefense": 10,
+    "startPercent": 95,
+    "citySound": "cityModern",
+    "uniques": []
+  }
 ]
