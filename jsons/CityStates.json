@@ -1,0 +1,62 @@
+[
+  {
+    "name": "The Gnomes",
+    "cityStateType": "Cultured",
+    "startBias": ["Hill"],
+    "uniques": ["[+2] [Science] from every [Hill]", "[+1] [Production] from every [Hill]"]
+  },
+  {
+    "name": "The Merfolk",
+    "cityStateType": "Maritime",
+    "startBias": ["Coast"],
+    "uniques": ["[+2] [Food] from every [Coast]", "[+1] [Gold] from every [Coast]"]
+  },
+  {
+    "name": "The Centaurs",
+    "cityStateType": "Militaristic",
+    "startBias": ["Plains"],
+    "uniques": ["[+2] [Production] from every [Plains]", "[+1] [Movement] for [Mounted] units"]
+  },
+  {
+    "name": "The Treants",
+    "cityStateType": "Cultured",
+    "startBias": ["Forest"],
+    "uniques": ["[+2] [Culture] from every [Forest]", "[+1] [Food] from every [Forest]"]
+  },
+  {
+    "name": "The Goblins",
+    "cityStateType": "Mercantile",
+    "startBias": ["Hill"],
+    "uniques": ["[+2] [Gold] from every [Mine]", "[+10]% [Gold]"]
+  },
+  {
+    "name": "The Vampires",
+    "cityStateType": "Militaristic",
+    "startBias": ["Tundra"],
+    "uniques": ["[+2] [Soul Power] from every [Tundra]", "Earn [10]% of killed [All] unit's [Strength] as [Soul Power]"]
+  },
+  {
+    "name": "The Elementals",
+    "cityStateType": "Cultured",
+    "startBias": ["Desert"],
+    "uniques": ["[+2] [Soul Power] from every [Desert]", "[+10]% Strength for [All] units <when fighting in [Desert] tiles>"]
+  },
+  {
+    "name": "The Giants",
+    "cityStateType": "Maritime",
+    "startBias": ["Mountain"],
+    "uniques": ["[+2] [Production] from every [Mountain]", "[+20]% Strength for cities"]
+  },
+  {
+    "name": "The Sphinxes",
+    "cityStateType": "Cultured",
+    "startBias": ["Desert"],
+    "uniques": ["[+3] [Science] from every [Desert]", "[+1] [Culture] from every [Desert]"]
+  },
+  {
+    "name": "The Dryads",
+    "cityStateType": "Cultured",
+    "startBias": ["Forest"],
+    "uniques": ["[+2] [Faith] from every [Forest]", "[+2] [Soul Power] from every [Forest]"]
+  }
+]
