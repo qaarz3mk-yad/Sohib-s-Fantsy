@@ -1,41 +1,546 @@
 [
-    {
-		"name": "Adelle Corp",
-		"leaderName": "Kane",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	},
-
-	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	}
+  {
+    "name": "High Elves",
+    "leaderName": "Queen Aelindra",
+    "adjective": [
+      "Elven"
+    ],
+    "preferredVictoryType": "Cultural",
+    "startIntroPart1": "Welcome, immortal queen of the High Elves. Your people have walked this world since before the first dawn.",
+    "startIntroPart2": "Your ancient magic flows through every leaf and stone. Will you restore the glory of the Elven empires, or will time finally claim your eternal race?",
+    "declaringWar": "You have disturbed the peace of ages. Now feel our wrath.",
+    "attacked": "Fool! You dare strike at the children of starlight?",
+    "defeated": "The stars themselves weep for our fall... but we shall return.",
+    "introduction": "Greetings, traveler. I am Queen Aelindra. Speak quickly, for mortal concerns bore me.",
+    "neutralHello": "What brings you to our sacred groves?",
+    "hateHello": "Your presence defiles the air. State your business.",
+    "tradeRequest": "The elves offer you this trade. Consider it carefully.",
+    "outerColor": [
+      0,
+      180,
+      120
+    ],
+    "innerColor": [
+      255,
+      255,
+      220
+    ],
+    "startBias": [
+      "Forest"
+    ],
+    "cities": [
+      "Aelindor",
+      "Sylvaris",
+      "Lorathiel",
+      "Mithrion",
+      "Elenya",
+      "Thalindra",
+      "Celestia",
+      "Faelon",
+      "Aerinwe",
+      "Silvana",
+      "Elensar",
+      "Caladris",
+      "Nenya",
+      "Galad",
+      "Ithilion"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Forest]",
+      "[+10]% Strength for [All] units <when fighting in [Forest] tiles>",
+      "[+10]% Strength for cities",
+      "All newly-trained [Ranged] units [in all cities] receive the [Elven Precision] promotion",
+      "[+2] [Culture] from every [Whisperwood]"
+    ]
+  },
+  {
+    "name": "Dark Elves",
+    "leaderName": "Matron Vaelith",
+    "adjective": [
+      "Drow"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Welcome, Matron Vaelith, spider-queen of the underdark. Your people have thrived in shadow where others would perish.",
+    "startIntroPart2": "Your poisoned blades and dark sorcery have toppled empires. Will you rise from the depths to claim the surface world?",
+    "declaringWar": "Your flesh will feed the spider-goddess. Your souls will fuel our magic.",
+    "attacked": "You fool! The darkness has teeth!",
+    "defeated": "The light... it burns... but the dark always returns...",
+    "introduction": "I am Matron Vaelith. Kneel, or be made to kneel.",
+    "neutralHello": "Speak, surface-dweller. My patience is thin.",
+    "hateHello": "Your stench offends me. What do you want?",
+    "tradeRequest": "The Drow do not trade fairly. Accept, or face consequences.",
+    "outerColor": [
+      60,
+      0,
+      80
+    ],
+    "innerColor": [
+      180,
+      50,
+      200
+    ],
+    "startBias": [
+      "Hill"
+    ],
+    "cities": [
+      "Menzoberranzan",
+      "Ched Nasad",
+      "Sshamath",
+      "Eryndlyn",
+      "Maerimydra",
+      "Llurth Dreier",
+      "T'lindhet",
+      "Myth Drannor",
+      "Kaer Maga",
+      "Velddrinnsshar",
+      "Sschindylryn",
+      "Bautha Z'hal",
+      "Chaulssin",
+      "Dusklyn",
+      "Zhentil Keep"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Hill]",
+      "[+15]% Strength for [All] units <when fighting in [Hill] tiles>",
+      "[+1] Sight for [All] units",
+      "All newly-trained [Melee] units [in all cities] receive the [Poisoned Blades] promotion",
+      "[+2] [Gold] from every [Shadow Silk]"
+    ]
+  },
+  {
+    "name": "Dwarves",
+    "leaderName": "King Throrin Ironfoot",
+    "adjective": [
+      "Dwarven"
+    ],
+    "preferredVictoryType": "Scientific",
+    "startIntroPart1": "Welcome, King Throrin, lord of the mountain halls. Your people are the finest craftsmen in all the realms.",
+    "startIntroPart2": "Your forges burn day and night, producing wonders of steel and mithril. Will your halls expand to encompass the world?",
+    "declaringWar": "You have insulted our honor! The axes come for you!",
+    "attacked": "By my beard! You dare attack the mountain kings?",
+    "defeated": "The halls fall silent... the forges grow cold...",
+    "introduction": "Hail! I am Throrin Ironfoot. Have you come to trade, or to fight?",
+    "neutralHello": "What brings you to our mountain?",
+    "hateHello": "Speak quickly, before I lose my temper.",
+    "tradeRequest": "The dwarves offer fair trade. Our word is our bond.",
+    "outerColor": [
+      160,
+      120,
+      40
+    ],
+    "innerColor": [
+      220,
+      200,
+      150
+    ],
+    "startBias": [
+      "Mountain"
+    ],
+    "cities": [
+      "Khaz Modan",
+      "Erebor",
+      "Ironforge",
+      "Moradin's Reach",
+      "Thorbardin",
+      "Mithral Hall",
+      "Kaladim",
+      "Kazordoon",
+      "Dun Morogh",
+      "Grim Batol",
+      "Shadowforge",
+      "Thorium Point",
+      "Blackrock",
+      "Dun Garok",
+      "Kharanos"
+    ],
+    "uniques": [
+      "[+2] [Production] from every [Mountain]",
+      "[+15]% [Production] when constructing [All] buildings [in all cities]",
+      "[+20]% Strength for cities",
+      "All newly-trained [Melee] units [in all cities] receive the [Dwarven Resilience] promotion",
+      "[+2] [Production] from every [Mithril]"
+    ]
+  },
+  {
+    "name": "Orcs",
+    "leaderName": "Warchief Grommash",
+    "adjective": [
+      "Orcish"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Welcome, Warchief Grommash, strongest of the strong. Your people know only war, and through war, you thrive.",
+    "startIntroPart2": "Your hordes darken the horizon. Will you crush all who stand before you and claim the world through blood and iron?",
+    "declaringWar": "Your skull will make a fine drinking cup!",
+    "attacked": "You dare challenge the horde? We will feast on your bones!",
+    "defeated": "The horde... scattered... but we will rise again...",
+    "introduction": "I am Grommash! Speak, before I decide to crush you.",
+    "neutralHello": "What do you want, weakling?",
+    "hateHello": "Your head would look good on my wall.",
+    "tradeRequest": "The horde offers this. Take it, or face our axes.",
+    "outerColor": [
+      80,
+      30,
+      10
+    ],
+    "innerColor": [
+      200,
+      60,
+      20
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "cities": [
+      "Orgrimmar",
+      "Blackrock Spire",
+      "Warsong",
+      "Frostwolf",
+      "Bleeding Hollow",
+      "Shadowmoon",
+      "Dragonmaw",
+      "Burning Blade",
+      "Shattered Hand",
+      "Thunderlord",
+      "Laughing Skull",
+      "Bonechewer",
+      "Warsong Hold",
+      "Hellscream",
+      "Grommashar"
+    ],
+    "uniques": [
+      "[+2] [Production] from every [Plains]",
+      "[+20]% Strength for [All] units",
+      "[-10]% [Production] when constructing [All] buildings [in all cities]",
+      "All newly-trained [Melee] units [in all cities] receive the [Berserker Rage] promotion",
+      "[+1] Movement for [All] units"
+    ]
+  },
+  {
+    "name": "Humans",
+    "leaderName": "King Aldric",
+    "adjective": [
+      "Human"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "startIntroPart1": "Welcome, King Aldric, ruler of men. Your people are young but ambitious, building kingdoms where others see only wilderness.",
+    "startIntroPart2": "Your knights ride forth, your merchants trade across the seas. Will humanity's ambition carry them to the stars?",
+    "declaringWar": "By the crown, you will pay for your insolence!",
+    "attacked": "Treason! Men, to arms! Defend the realm!",
+    "defeated": "The kingdom falls... but the spirit of man endures...",
+    "introduction": "Greetings. I am King Aldric of the realm. Let us discuss matters of state.",
+    "neutralHello": "Welcome to my court. What news do you bring?",
+    "hateHello": "Your presence is unwelcome. Be brief.",
+    "tradeRequest": "The crown proposes a mutually beneficial arrangement.",
+    "outerColor": [
+      30,
+      60,
+      150
+    ],
+    "innerColor": [
+      255,
+      220,
+      100
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "cities": [
+      "Stormwind",
+      "Lordaeron",
+      "Stromgarde",
+      "Dalaran",
+      "Gilneas",
+      "Kul Tiras",
+      "Alterac",
+      "Theramore",
+      "Boralus",
+      "Proudmoore",
+      "Andorhal",
+      "Stratholme",
+      "Tirisfal",
+      "Westfall",
+      "Redridge"
+    ],
+    "uniques": [
+      "[+1] [Gold] from every [Coast]",
+      "[+15]% [Gold] from [Trade route] income",
+      "[+2] [Culture] from every [City connection]",
+      "All newly-trained [Mounted] units [in all cities] receive the [Knight's Charge] promotion",
+      "[+1] [Science] from every [University]"
+    ]
+  },
+  {
+    "name": "Undead",
+    "leaderName": "Lich King Vorthas",
+    "adjective": [
+      "Undead"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Welcome, Lich King Vorthas, sovereign of the eternal night. Death holds no dominion over your subjects.",
+    "startIntroPart2": "Your armies know no fear, no hunger, no fatigue. Will you blanket the world in eternal undeath?",
+    "declaringWar": "Your corpses will serve us well. Surrender your souls.",
+    "attacked": "Foolish mortal! Death is but a beginning!",
+    "defeated": "Even the dead can die... but we shall rise from the ashes...",
+    "introduction": "I am Vorthas. My kingdom is eternal. What do you seek?",
+    "neutralHello": "Speak, living one. My patience is... limited.",
+    "hateHello": "Your heartbeat is annoying. Make it stop.",
+    "tradeRequest": "The dead have no need for gold, but we accept your tribute.",
+    "outerColor": [
+      20,
+      20,
+      20
+    ],
+    "innerColor": [
+      150,
+      200,
+      255
+    ],
+    "startBias": [
+      "Tundra"
+    ],
+    "cities": [
+      "Naxxramas",
+      "Icecrown",
+      "Undercity",
+      "Stratholme",
+      "Andorhal",
+      "Scholomance",
+      "Caer Darrow",
+      "Deatholme",
+      "Vengeance Landing",
+      "Voltarus",
+      "Zeramas",
+      "Thrym",
+      "The Fleshwerks",
+      "Corp'rethar",
+      "Mord'rethar"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Tundra]",
+      "[+10]% Strength for [All] units <when fighting in [Tundra] tiles>",
+      "Units do not consume [Food]",
+      "[+5] [Soul Power] from every [Haunted Ground]",
+      "All newly-trained [All] units [in all cities] receive the [Undead Fortitude] promotion",
+      "[-50]% [Food] [in all cities]"
+    ]
+  },
+  {
+    "name": "Demons",
+    "leaderName": "Demon Lord Azgoth",
+    "adjective": [
+      "Demonic"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Welcome, Demon Lord Azgoth, prince of the burning legion. You were forged in the fires of the abyss.",
+    "startIntroPart2": "Your armies of flame and shadow march across the realms. Will you burn the world to ash and dance in the inferno?",
+    "declaringWar": "Your world will burn! Your souls will fuel our eternal war!",
+    "attacked": "You dare strike at a demon lord? I will teach you the meaning of pain!",
+    "defeated": "The fires dim... but the abyss is eternal...",
+    "introduction": "I am Azgoth. Kneel, and I may let you live.",
+    "neutralHello": "Speak, insect. My time is valuable.",
+    "hateHello": "Your soul smells delicious. Come closer.",
+    "tradeRequest": "The legion demands tribute. Give, or burn.",
+    "outerColor": [
+      200,
+      0,
+      0
+    ],
+    "innerColor": [
+      50,
+      0,
+      0
+    ],
+    "startBias": [
+      "Desert"
+    ],
+    "cities": [
+      "Netherstorm",
+      "Hellfire",
+      "Abyssal",
+      "Burning Steppes",
+      "Felwood",
+      "Shadowmoon",
+      "Tanaan",
+      "Antorus",
+      "Argus",
+      "Mardum",
+      "Niskara",
+      "Nathreza",
+      "Xoroth",
+      "Rancora",
+      "Aurinor"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Desert]",
+      "[+15]% Strength for [All] units <when fighting in [Desert] tiles>",
+      "[+20]% Strength for [All] units",
+      "[-20]% [Happiness] [in all cities]",
+      "All newly-trained [All] units [in all cities] receive the [Demonic Fire] promotion",
+      "Earn [5]% of killed [All] unit's [Strength] as [Soul Power]"
+    ]
+  },
+  {
+    "name": "Fae",
+    "leaderName": "Oberon the Erlking",
+    "adjective": [
+      "Fae"
+    ],
+    "preferredVictoryType": "Cultural",
+    "startIntroPart1": "Welcome, Oberon, Erlking of the hidden folk. Your realm exists between the waking world and dreams.",
+    "startIntroPart2": "Your magic is subtle but potent, your tricks devastating. Will you weave your enchantments across all the realms?",
+    "declaringWar": "You have broken the ancient compact. Now face the wild hunt!",
+    "attacked": "How dare you! The fae do not forgive such trespass!",
+    "defeated": "The glamour fades... the mists recede... but we are never truly gone...",
+    "introduction": "Greetings, mortal. I am Oberon. Do not believe everything you see.",
+    "neutralHello": "Welcome to our revels. Join us, if you dare.",
+    "hateHello": "Your kind brings iron and sorrow. Leave.",
+    "tradeRequest": "The fae offer a bargain. Read the terms carefully.",
+    "outerColor": [
+      100,
+      200,
+      100
+    ],
+    "innerColor": [
+      255,
+      200,
+      255
+    ],
+    "startBias": [
+      "Forest"
+    ],
+    "cities": [
+      "Tir na Nog",
+      "Avalon",
+      "Annwn",
+      "Mag Mell",
+      "Emain Ablach",
+      "Hy-Brasil",
+      "Tir fo Thuinn",
+      "Tir na mBeo",
+      "Tir na nOg",
+      "Tir Tairngire",
+      "Tir na mBan",
+      "Tir na nDeo",
+      "Tir na Sorcha",
+      "Tir na hEoin",
+      "Tir na nGael"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Forest]",
+      "[+15]% [Culture] from every [Forest]",
+      "[+1] Movement for [All] units",
+      "[+10]% Strength for [All] units <when fighting in [Forest] tiles>",
+      "All newly-trained [All] units [in all cities] receive the [Fae Glamour] promotion",
+      "[+2] [Culture] from every [Moonpetal]"
+    ]
+  },
+  {
+    "name": "Dragonborn",
+    "leaderName": "Kravix the Ascendant",
+    "adjective": [
+      "Draconic"
+    ],
+    "preferredVictoryType": "Scientific",
+    "startIntroPart1": "Welcome, Kravix, scion of dragonkind. Your blood burns with the fire of ancient wyrms.",
+    "startIntroPart2": "Your people are few but mighty, each warrior worth a hundred soldiers. Will you restore the draconic empire of legend?",
+    "declaringWar": "You face the wrath of dragons! Tremble and despair!",
+    "attacked": "You strike at a dragon? Your hubris will be your end!",
+    "defeated": "The draconic line... broken... but the eggs remain...",
+    "introduction": "I am Kravix. My lineage stretches back to the first dawn.",
+    "neutralHello": "Speak, lesser being. I am listening.",
+    "hateHello": "Your presence insults my dignity.",
+    "tradeRequest": "The dragonborn offer this exchange. Do not waste our time.",
+    "outerColor": [
+      180,
+      50,
+      0
+    ],
+    "innerColor": [
+      255,
+      180,
+      0
+    ],
+    "startBias": [
+      "Hill"
+    ],
+    "cities": [
+      "Wyrmrest",
+      "Dracoth",
+      "Neltharion",
+      "Alexstrasza",
+      "Malygos",
+      "Nozdormu",
+      "Ysera",
+      "Kalecgos",
+      "Sindragosa",
+      "Onyxia",
+      "Nefarian",
+      "Deathwing",
+      "Galakrond",
+      "Vaelastrasz",
+      "Ebonroc"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Hill]",
+      "[+20]% Strength for [All] units",
+      "[-30]% [Production] when constructing [All] buildings [in all cities]",
+      "All newly-trained [All] units [in all cities] receive the [Draconic Might] promotion",
+      "[+2] [Science] from every [Dragon Bone]"
+    ]
+  },
+  {
+    "name": "Celestials",
+    "leaderName": "Archon Seraphiel",
+    "adjective": [
+      "Celestial"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "startIntroPart1": "Welcome, Archon Seraphiel, voice of the heavens. Your people descend from the stars themselves.",
+    "startIntroPart2": "Your light pierces the darkest shadows. Will you bring divine order to the chaotic realms?",
+    "declaringWar": "The heavens themselves condemn you! Prepare for judgment!",
+    "attacked": "Darkness strikes at light? How futile!",
+    "defeated": "The light fades... but dawn always follows the darkest night...",
+    "introduction": "I am Seraphiel. The light guides my hand. What do you seek?",
+    "neutralHello": "Blessings upon you. What do you need?",
+    "hateHello": "Your soul is stained. Repent, while you still can.",
+    "tradeRequest": "The heavens offer you this gift. Use it wisely.",
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "innerColor": [
+      100,
+      150,
+      255
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "cities": [
+      "Celestia",
+      "Elysium",
+      "Paradiso",
+      "Empyrean",
+      "Aether",
+      "Seraphim",
+      "Cherubim",
+      "Ophanim",
+      "Dominion",
+      "Virtue",
+      "Power",
+      "Principality",
+      "Archangel",
+      "Angelorum",
+      "Heaven's Gate"
+    ],
+    "uniques": [
+      "[+2] [Soul Power] from every [Plains]",
+      "[+15]% Strength for [All] units <when fighting in [Plains] tiles>",
+      "[+2] [Happiness] from every [Temple]",
+      "All newly-trained [All] units [in all cities] receive the [Holy Light] promotion",
+      "[+2] [Faith] from every [Unicorn Horn]",
+      "[+10]% Strength for cities"
+    ]
+  }
 ]
