@@ -1,8 +1,62 @@
 [
-    {
-        "name": "discover cultural artifacts",
-        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"],
-        "color": "#cf8ff7"
-    }
+  {
+    "name": "Ancient Mana Cache",
+    "uniques": ["Provides [20] [Soul Power]", "Free [Archmage] appears"]
+  },
+  {
+    "name": "Forgotten Armory",
+    "uniques": ["Free [Swordsman] appears", "Free [Archer] appears", "New [All] units start with [15] XP [in all cities]"]
+  },
+  {
+    "name": "Cursed Graveyard",
+    "uniques": ["Provides [15] [Soul Power]", "May capture killed [All] units", "Free [Ghoul] appears"]
+  },
+  {
+    "name": "Arcane Library",
+    "uniques": ["Free [Great Person - Science] appears", "[+2] [Science] in nearest city"]
+  },
+  {
+    "name": "Dragon Hoard",
+    "uniques": ["Provides [200] [Gold]", "Provides [10] [Soul Power]", "Free [Dragon Bone]"]
+  },
+  {
+    "name": "Fairy Circle",
+    "uniques": ["[+2] [Culture] in nearest city", "[+2] [Soul Power] in nearest city", "All newly-trained [All] units [in nearest city] receive the [Fae Glamour] promotion"]
+  },
+  {
+    "name": "Demon Altar",
+    "uniques": ["Provides [25] [Soul Power]", "Free [Felguard] appears", "Adjacent enemy units ending their turn take [10] damage"]
+  },
+  {
+    "name": "Holy Relic",
+    "uniques": ["Free [Great Person - Faith] appears", "[+2] [Faith] in nearest city", "All adjacent units heal [10] HP per turn when healing"]
+  },
+  {
+    "name": "Rune Stone",
+    "uniques": ["[+2] [Production] in nearest city", "Free [Ironbreaker] appears", "[+1] [Production] from every [Mine] in nearest city"]
+  },
+  {
+    "name": "Witch's Cauldron",
+    "uniques": ["Provides [15] [Soul Power]", "Free [Necromancer] appears", "Earn [10]% of killed [All] unit's [Strength] as [Soul Power]"]
+  },
+  {
+    "name": "Ancient Battlefield",
+    "uniques": ["Free [Warrior] appears", "Free [Spearman] appears", "[+15] XP gained from combat for [All] units"]
+  },
+  {
+    "name": "Ley Line Convergence",
+    "uniques": ["Provides [30] [Soul Power]", "[+3] [Soul Power] in nearest city", "Free [Arcane Apprentice] appears"]
+  },
+  {
+    "name": "Crystal Formation",
+    "uniques": ["Provides [10] [Soul Power]", "Free [Mana Crystal]", "[+2] [Science] in nearest city"]
+  },
+  {
+    "name": "Star Fall Site",
+    "uniques": ["Provides [15] [Soul Power]", "Free [Star Metal]", "[+2] [Production] in nearest city"]
+  },
+  {
+    "name": "The Lost Academy",
+    "uniques": ["Free [University] in nearest city", "Free [Great Person - Science] appears", "[+10]% [Science] in nearest city"]
+  }
 ]
