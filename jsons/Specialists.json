@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Scientist",
+    "greatPersonPoints": {"Great Scientist": 3},
+    "science": 2
+  },
+  {
+    "name": "Merchant",
+    "greatPersonPoints": {"Great Merchant": 3},
+    "gold": 2
+  },
+  {
+    "name": "Engineer",
+    "greatPersonPoints": {"Great Engineer": 3},
+    "production": 2
+  },
+  {
+    "name": "Priest",
+    "greatPersonPoints": {"Great Prophet": 3},
+    "faith": 2
+  },
+  {
+    "name": "Artist",
+    "greatPersonPoints": {"Great Artist": 3},
+    "culture": 2
+  },
+  {
+    "name": "Soulweaver",
+    "greatPersonPoints": {"Soulweaver": 3},
+    "uniques": ["Provides [2] [Soul Power]"]
+  }
+]
