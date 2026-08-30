@@ -1,11 +1,50 @@
 [
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
-    {
-        "name": "Infantry",
-        "movementType": "Land"
-    }
-    
+  {
+    "name": "Melee",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Ranged",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Mounted",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Civilian",
+    "movementType": "Land",
+    "uniques": []
+  },
+  {
+    "name": "Naval Melee",
+    "movementType": "Water",
+    "uniques": []
+  },
+  {
+    "name": "Naval Ranged",
+    "movementType": "Water",
+    "uniques": []
+  },
+  {
+    "name": "Naval Siege",
+    "movementType": "Water",
+    "uniques": []
+  },
+  {
+    "name": "Flying",
+    "movementType": "Land",
+    "uniques": [
+      "Can pass through impassable tiles",
+      "Ignores terrain cost"
+    ]
+  }
 ]
