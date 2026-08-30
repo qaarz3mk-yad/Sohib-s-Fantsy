@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Soul Power",
+    "resourceType": "Strategic",
+    "uniques": [
+      "Stockpiled"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The mystical energy that fuels all magic. Accumulate Soul Power to amplify your armies and fortify your cities."
+      }
+    ]
+  },
+  {
+    "name": "Mana Crystal",
+    "resourceType": "Strategic",
+    "uniques": [
+      "Provides [2] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Crystallized magical energy found deep within the earth. Essential for arcane construction."
+      }
+    ]
+  },
+  {
+    "name": "Mithril",
+    "resourceType": "Strategic",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "A legendary metal lighter than steel but stronger than iron. Favored by dwarven smiths and elven artisans."
+      }
+    ]
+  },
+  {
+    "name": "Adamantine",
+    "resourceType": "Strategic",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "The hardest substance known to exist. Weapons forged from adamantine can pierce any defense."
+      }
+    ]
+  },
+  {
+    "name": "Dragon Bone",
+    "resourceType": "Strategic",
+    "uniques": [
+      "Provides [1] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The remains of ancient dragons, pulsing with residual magical power. Highly prized by necromancers and artificers."
+      }
+    ]
+  },
+  {
+    "name": "Soul Essence",
+    "resourceType": "Strategic",
+    "uniques": [
+      "Provides [3] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The distilled essence of living beings. Dark and potent, it is the fuel of the most forbidden magics."
+      }
+    ]
+  },
+  {
+    "name": "Star Metal",
+    "resourceType": "Strategic",
+    "uniques": [
+      "Provides [1] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Metal fallen from the stars. It hums with cosmic energy and is said to be forged by the gods themselves."
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Feather",
+    "resourceType": "Luxury",
+    "uniques": [
+      "Provides [1] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A feather from the mythical phoenix. It radiates warmth and is said to grant immortality to those who possess it."
+      }
+    ]
+  },
+  {
+    "name": "Unicorn Horn",
+    "resourceType": "Luxury",
+    "uniques": [
+      "Provides [1] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The spiral horn of a unicorn. It purifies water and heals any wound."
+      }
+    ]
+  },
+  {
+    "name": "Moonpetal",
+    "resourceType": "Luxury",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "A flower that only blooms under the light of a full moon. Its fragrance induces prophetic visions."
+      }
+    ]
+  },
+  {
+    "name": "Ambergris",
+    "resourceType": "Luxury",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "A rare substance produced by leviathans of the deep. Used in the finest perfumes and potent elixirs."
+      }
+    ]
+  },
+  {
+    "name": "Shadow Silk",
+    "resourceType": "Luxury",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "Silk spun by spiders that dwell in the darkest caves. It is nearly invisible in dim light."
+      }
+    ]
+  },
+  {
+    "name": "Ember Gem",
+    "resourceType": "Luxury",
+    "uniques": [
+      "Provides [1] [Soul Power]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gemstone that burns with an inner flame. It never cools and provides warmth even in the coldest winters."
+      }
+    ]
+  },
+  {
+    "name": "Frost Lotus",
+    "resourceType": "Luxury",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "A lotus that grows only on frozen lakes. Its petals are colder than ice and never melt."
+      }
+    ]
+  },
+  {
+    "name": "Whisperwood",
+    "resourceType": "Bonus",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "Wood from trees that can speak. It resonates with magical energy and is perfect for crafting staves."
+      }
+    ]
+  },
+  {
+    "name": "Glowshroom",
+    "resourceType": "Bonus",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "Bioluminescent fungi that light up the darkest caverns. Used in potions and as a natural light source."
+      }
+    ]
+  },
+  {
+    "name": "Ironroot",
+    "resourceType": "Bonus",
+    "uniques": [],
+    "civilopediaText": [
+      {
+        "text": "A tuber with skin as hard as iron. It is nutritious and can be refined into a crude metal substitute."
+      }
+    ]
+  }
+]
